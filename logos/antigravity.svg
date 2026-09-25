@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <defs>
+    <linearGradient id="agy-grad" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#7928CA" />
+      <stop offset="50%" stop-color="#00FFE0" />
+      <stop offset="100%" stop-color="#F72585" />
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+  <!-- Background Shield Rounded -->
+  <rect width="128" height="128" rx="28" fill="#0D1117" />
+  <rect x="2" y="2" width="124" height="124" rx="26" fill="none" stroke="url(#agy-grad)" stroke-width="2.5" opacity="0.6"/>
+  <!-- Antigravity Prism / Upward Core -->
+  <g transform="translate(64,64)">
+    <!-- Orbital Rings -->
+    <ellipse rx="38" ry="14" fill="none" stroke="#00FFE0" stroke-width="2" opacity="0.5" transform="rotate(-25)"/>
+    <ellipse rx="38" ry="14" fill="none" stroke="#F72585" stroke-width="2" opacity="0.5" transform="rotate(25)"/>
+    <!-- Central Antigravity Arrowhead & Diamond -->
+    <path d="M 0 -34 L 24 14 L 10 10 L 0 -12 L -10 10 L -24 14 Z" fill="url(#agy-grad)" filter="url(#glow)"/>
+    <circle cx="0" cy="24" r="5" fill="#00FFE0" filter="url(#glow)"/>
+  </g>
+</svg>
