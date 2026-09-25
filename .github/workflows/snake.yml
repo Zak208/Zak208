@@ -18,13 +18,13 @@ jobs:
     timeout-minutes: 5
 
     steps:
-      - name: Generar Snake SVGs con Paleta Neón de Alto Contraste
+      - name: Generar Snake SVGs con Aspecto Neón Azul Claro
         uses: Platane/snk/svg-only@v3
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark&color_snake=%23F72585&color_dots=%23161b22,%2300d67d,%2300FFE0,%23F72585,%23FFE600
+            dist/github-contribution-grid-snake.svg?color_snake=%230284c7&color_dots=%23ebedf0,%237dd3fc,%2338bdf8,%230284c7,%230369a1
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark&color_snake=%2300FFE0&color_dots=%23161b22,%230369a1,%2300FFE0,%23a855f7,%23f43f5e
 
       - name: Publicar en la rama output
         uses: crazy-max/ghaction-github-pages@v3.1.0
