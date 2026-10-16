@@ -5,7 +5,7 @@
 
   <!-- Animación de Typing Dinámica -->
   <a href="https://github.com/Zak208">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1000&color=00FFE0&background=0D111700&center=true&vCenter=true&width=620&lines=Desarrollador+Full+Stack+%26+Software;Especializado+en+Web+Moderna+%26+Bases+de+Datos;React+%E2%80%A2+Python+%E2%80%A2+SQL;Creando+c%C3%B3digo+limpio+y+experiencias+visuales+%E2%9A%A1" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1000&color=00FFE0&background=0D111700&center=true&vCenter=true&width=620&lines=Desarrollador+Full+Stack+%26+Software;Especializado+en+Web+Moderna+%26+Bases+de+Datos;Python+%E2%80%A2+JavaScript+%E2%80%A2+SQL;Creando+c%C3%B3digo+limpio+y+experiencias+visuales+%E2%9A%A1" alt="Typing SVG" />
   </a>
 
   <br/><br/>
@@ -18,7 +18,7 @@
 
   <br/>
 
-  <!-- Enlaces Rápidos -->
+  <!-- Enlaces Rápidos & Métricas -->
   <a href="http://zak208.sytes.net" target="_blank">
     <img src="https://img.shields.io/badge/Portafolio-zak208.sytes.net-00FFE0?style=for-the-badge&logo=firefox&logoColor=090D16&labelColor=090D16" alt="Portfolio" />
   </a>
@@ -26,6 +26,8 @@
   <a href="mailto:juegojuego103@gmail.com">
     <img src="https://img.shields.io/badge/Contacto-Email-F72585?style=for-the-badge&logo=gmail&logoColor=white&labelColor=090D16" alt="Email" />
   </a>
+  &nbsp;
+  <img src="https://komarev.com/ghpvc/?username=Zak208&label=Visitas&style=for-the-badge&color=00ffe0&labelColor=090D16" alt="Profile Views" />
 
 </div>
 
@@ -54,7 +56,6 @@
 <div align="center">
   <table border="0">
     <tr align="center">
-      <td width="80"><img src="./logos/react.svg" width="38" height="38" alt="React" /><br/><sub><b>React</b></sub></td>
       <td width="80"><img src="./logos/discordpy.svg" width="38" height="38" alt="Discord.py" /><br/><sub><b>Discord.py</b></sub></td>
       <td width="80"><img src="./logos/discordjs.svg" width="38" height="38" alt="Discord.js" /><br/><sub><b>Discord.js</b></sub></td>
     </tr>
@@ -82,18 +83,39 @@
 <div align="center">
   <table border="0">
     <tr align="center">
-      <td width="72"><img src="./logos/nodejs.svg" width="36" height="36" alt="Node.js" /><br/><sub><b>Node.js</b></sub></td>
-      <td width="72"><img src="./logos/docker.svg" width="36" height="36" alt="Docker" /><br/><sub><b>Docker</b></sub></td>
-      <td width="72"><img src="./logos/git.svg" width="36" height="36" alt="Git" /><br/><sub><b>Git</b></sub></td>
-      <td width="72"><img src="./logos/virtualbox.svg" width="36" height="36" alt="VirtualBox" /><br/><sub><b>VirtualBox</b></sub></td>
-    </tr>
-    <tr align="center">
-      <td width="72"><img src="./logos/mysql.svg" width="36" height="36" alt="MySQL" /><br/><sub><b>MySQL</b></sub></td>
-      <td width="72"><img src="./logos/postgresql.svg" width="36" height="36" alt="PostgreSQL" /><br/><sub><b>PostgreSQL</b></sub></td>
-      <td width="72"><img src="./logos/sqlite.svg" width="36" height="36" alt="SQLite" /><br/><sub><b>SQLite</b></sub></td>
-      <td width="72"><img src="./logos/wordpress.svg" width="36" height="36" alt="WordPress" /><br/><sub><b>WordPress</b></sub></td>
+      <td width="75"><img src="./logos/nodejs.svg" width="36" height="36" alt="Node.js" /><br/><sub><b>Node.js</b></sub></td>
+      <td width="75"><img src="./logos/docker.svg" width="36" height="36" alt="Docker" /><br/><sub><b>Docker</b></sub></td>
+      <td width="75"><img src="./logos/git.svg" width="36" height="36" alt="Git" /><br/><sub><b>Git</b></sub></td>
+      <td width="75"><img src="./logos/virtualbox.svg" width="36" height="36" alt="VirtualBox" /><br/><sub><b>VirtualBox</b></sub></td>
+      <td width="75"><img src="./logos/mysql.svg" width="36" height="36" alt="MySQL" /><br/><sub><b>MySQL</b></sub></td>
+      <td width="75"><img src="./logos/postgresql.svg" width="36" height="36" alt="PostgreSQL" /><br/><sub><b>PostgreSQL</b></sub></td>
+      <td width="75"><img src="./logos/sqlite.svg" width="36" height="36" alt="SQLite" /><br/><sub><b>SQLite</b></sub></td>
     </tr>
   </table>
+</div>
+
+<br/>
+
+---
+
+### 📊 Estadísticas & Analíticas de GitHub
+
+<div align="center">
+  <a href="https://github.com/Zak208">
+    <img src="https://github-readme-stats.vercel.app/api?username=Zak208&show_icons=true&locale=es&bg_color=0D1117&title_color=00FFE0&text_color=C9D1D9&icon_color=00FFE0&border_color=00FFE0" alt="GitHub Stats" />
+  </a>
+  &nbsp;
+  <a href="https://github.com/Zak208">
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Zak208&layout=compact&bg_color=0D1117&title_color=00FFE0&text_color=C9D1D9&border_color=00FFE0&locale=es" alt="Top Languages" />
+  </a>
+</div>
+
+<br/>
+
+<div align="center">
+  <a href="https://github.com/Zak208">
+    <img src="https://github-readme-streak-stats.herokuapp.com/?user=Zak208&background=0D1117&border=00FFE0&stroke=00FFE0&ring=00FFE0&fire=00FFE0&currStreakNum=00FFE0&sideNums=00FFE0&currStreakLabel=00FFE0&sideLabels=00FFE0&dates=C9D1D9" alt="GitHub Streak" />
+  </a>
 </div>
 
 <br/>
