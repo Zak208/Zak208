@@ -18,6 +18,15 @@
 
   <br/>
 
+  <!-- Enfoque Actual / Sobre Mí -->
+  <p align="center">
+    🔭 <b>Desarrollando:</b> Aplicaciones de escritorio en Python, utilidades de audio/hardware y bots.<br/>
+    ⚡ <b>Enfoque:</b> Rendimiento, bajo consumo, interfaces modernas y arquitecturas locales seguras.<br/>
+    💬 <b>Hablemos de:</b> Python, desarrollo de software, automatización y proyectos open source.
+  </p>
+
+  <br/>
+
   <!-- Enlaces Rápidos & Métricas -->
   <a href="http://zak208.sytes.net" target="_blank">
     <img src="https://img.shields.io/badge/Portafolio-zak208.sytes.net-00FFE0?style=for-the-badge&logo=firefox&logoColor=090D16&labelColor=090D16" alt="Portfolio" />
@@ -35,6 +44,49 @@
 
 ---
 
+### 🚀 Proyectos Destacados
+
+<div align="center">
+  <table>
+    <tr>
+      <td width="50%" valign="top">
+        <h3 align="center">🎵 <a href="https://github.com/Zak208/Descargar_Musica">Descargador de Música</a></h3>
+        <p align="center">
+          <img src="https://img.shields.io/badge/Python-3.12-3776AB?style=flat-square&logo=python&logoColor=white" />
+          <img src="https://img.shields.io/badge/FFmpeg-Audio-007808?style=flat-square&logo=ffmpeg&logoColor=white" />
+          <img src="https://img.shields.io/badge/Whisper-AI_Karaoke-blueviolet?style=flat-square" />
+          <img src="https://img.shields.io/badge/Windows-10%20%7C%2011-0078D4?style=flat-square&logo=windows&logoColor=white" />
+        </p>
+        <p align="justify">
+          Aplicación de escritorio para Windows que combina un reproductor local estilo Spotify con descarga de música, portadas, metadatos y letras sincronizadas con IA (Whisper). Funciona 100% en local sin cuentas ni claves.
+        </p>
+        <p align="center">
+          <a href="https://github.com/Zak208/Descargar_Musica"><b>📦 Ver Código</b></a> &nbsp;•&nbsp; 
+          <a href="https://github.com/Zak208/Descargar_Musica/releases"><b>📥 Descargar .exe</b></a>
+        </p>
+      </td>
+      <td width="50%" valign="top">
+        <h3 align="center">💡 <a href="https://github.com/Zak208/Zak_Light">Zak_Light</a></h3>
+        <p align="center">
+          <img src="https://img.shields.io/badge/Python-3.12-3776AB?style=flat-square&logo=python&logoColor=white" />
+          <img src="https://img.shields.io/badge/USB-Hardware_Direct-00FFE0?style=flat-square&logoColor=black" />
+          <img src="https://img.shields.io/badge/Ambilight-Realtime-orange?style=flat-square" />
+          <img src="https://img.shields.io/badge/Tests-560%2B-brightgreen?style=flat-square" />
+        </p>
+        <p align="justify">
+          Sistema de iluminación ambiental para monitores con tiras LED USB. Sincroniza colores con la pantalla (Ambilight), reacciona al ritmo del audio, incluye 18 efectos dinámicos y arquitectura multiproceso de ultra bajo consumo.
+        </p>
+        <p align="center">
+          <a href="https://github.com/Zak208/Zak_Light"><b>📦 Ver Código</b></a> &nbsp;•&nbsp; 
+          <a href="https://github.com/Zak208/Zak_Light/releases"><b>📥 Descargar .exe</b></a>
+        </p>
+      </td>
+    </tr>
+  </table>
+</div>
+
+---
+
 ### 💻 Lenguajes de Programación
 
 <div align="center">
@@ -45,19 +97,6 @@
       <td width="74"><img src="./logos/javascript.svg" width="38" height="38" alt="JavaScript" /><br/><sub><b>JavaScript</b></sub></td>
       <td width="74"><img src="./logos/python.svg" width="38" height="38" alt="Python" /><br/><sub><b>Python</b></sub></td>
       <td width="74"><img src="./logos/json.svg" width="38" height="38" alt="JSON" /><br/><sub><b>JSON</b></sub></td>
-    </tr>
-  </table>
-</div>
-
----
-
-### ⚡ Frameworks & Librerías
-
-<div align="center">
-  <table border="0">
-    <tr align="center">
-      <td width="80"><img src="./logos/discordpy.svg" width="38" height="38" alt="Discord.py" /><br/><sub><b>Discord.py</b></sub></td>
-      <td width="80"><img src="./logos/discordjs.svg" width="38" height="38" alt="Discord.js" /><br/><sub><b>Discord.js</b></sub></td>
     </tr>
   </table>
 </div>
@@ -78,13 +117,17 @@
 
 ---
 
-### 🌐 Otras Tecnologías & Herramientas
+### ⚡ Backend, Herramientas & DevOps
 
 <div align="center">
   <table border="0">
     <tr align="center">
+      <td width="75"><img src="./logos/discordpy.svg" width="38" height="38" alt="Discord.py" /><br/><sub><b>Discord.py</b></sub></td>
+      <td width="75"><img src="./logos/discordjs.svg" width="38" height="38" alt="Discord.js" /><br/><sub><b>Discord.js</b></sub></td>
       <td width="75"><img src="./logos/nodejs.svg" width="36" height="36" alt="Node.js" /><br/><sub><b>Node.js</b></sub></td>
       <td width="75"><img src="./logos/docker.svg" width="36" height="36" alt="Docker" /><br/><sub><b>Docker</b></sub></td>
+    </tr>
+    <tr align="center">
       <td width="75"><img src="./logos/git.svg" width="36" height="36" alt="Git" /><br/><sub><b>Git</b></sub></td>
       <td width="75"><img src="./logos/mysql.svg" width="36" height="36" alt="MySQL" /><br/><sub><b>MySQL</b></sub></td>
       <td width="75"><img src="./logos/postgresql.svg" width="36" height="36" alt="PostgreSQL" /><br/><sub><b>PostgreSQL</b></sub></td>
