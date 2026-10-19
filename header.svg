@@ -1,115 +1,93 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 160" width="100%" height="160">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 180" width="100%" height="180">
   <defs>
-    <linearGradient id="waveGrad" x1="0%" y1="100%" x2="0%" y2="0%">
-      <stop offset="0%" stop-color="#00FFE0" stop-opacity="0.2" />
-      <stop offset="60%" stop-color="#00FFE0" stop-opacity="0.8" />
-      <stop offset="100%" stop-color="#38BDF8" stop-opacity="1" />
+    <!-- Gradiente muy sutil y orgánico de onda -->
+    <linearGradient id="waveGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#388bfd" stop-opacity="0.1" />
+      <stop offset="30%" stop-color="#58a6ff" stop-opacity="0.9" />
+      <stop offset="70%" stop-color="#3fb950" stop-opacity="0.9" />
+      <stop offset="100%" stop-color="#3fb950" stop-opacity="0.1" />
     </linearGradient>
 
-    <linearGradient id="lineFade" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#1E293B" stop-opacity="0" />
-      <stop offset="20%" stop-color="#1E293B" stop-opacity="1" />
-      <stop offset="80%" stop-color="#1E293B" stop-opacity="1" />
-      <stop offset="100%" stop-color="#1E293B" stop-opacity="0" />
+    <linearGradient id="cardBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#161b22" />
+      <stop offset="100%" stop-color="#0d1117" />
     </linearGradient>
   </defs>
 
   <style>
-    @keyframes barWave1 { 0%, 100% { height: 16px; y: 72px; } 50% { height: 58px; y: 51px; } }
-    @keyframes barWave2 { 0%, 100% { height: 28px; y: 66px; } 50% { height: 74px; y: 43px; } }
-    @keyframes barWave3 { 0%, 100% { height: 44px; y: 58px; } 50% { height: 22px; y: 69px; } }
-    @keyframes barWave4 { 0%, 100% { height: 20px; y: 70px; } 50% { height: 64px; y: 48px; } }
-    @keyframes barWave5 { 0%, 100% { height: 50px; y: 55px; } 50% { height: 32px; y: 64px; } }
-    @keyframes barWave6 { 0%, 100% { height: 32px; y: 64px; } 50% { height: 80px; y: 40px; } }
-
-    .b1 { animation: barWave1 1.6s ease-in-out infinite; }
-    .b2 { animation: barWave2 1.4s ease-in-out infinite 0.15s; }
-    .b3 { animation: barWave3 1.8s ease-in-out infinite 0.3s; }
-    .b4 { animation: barWave4 1.3s ease-in-out infinite 0.1s; }
-    .b5 { animation: barWave5 1.7s ease-in-out infinite 0.25s; }
-    .b6 { animation: barWave6 1.5s ease-in-out infinite 0.4s; }
-
-    @keyframes livePulse {
-      0%, 100% { opacity: 1; transform: scale(1); }
-      50% { opacity: 0.35; transform: scale(0.85); }
-    }
-
-    .status-dot {
-      animation: livePulse 2.2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
-      transform-origin: 10px 10px;
-    }
-
     .font-main {
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Inter", Roboto, sans-serif;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    }
+    .font-mono {
+      font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
     }
 
-    .font-mono {
-      font-family: "JetBrains Mono", "SF Mono", Menlo, Consolas, monospace;
+    /* Animación fluida de onda de audio/señal continua */
+    @keyframes waveFlow {
+      0% {
+        stroke-dashoffset: 0;
+      }
+      100% {
+        stroke-dashoffset: -400;
+      }
+    }
+
+    @keyframes softPulse {
+      0%, 100% { opacity: 0.85; transform: scale(1); }
+      50% { opacity: 0.4; transform: scale(0.9); }
+    }
+
+    .wave-line {
+      fill: none;
+      stroke: url(#waveGrad);
+      stroke-width: 2.2;
+      stroke-linecap: round;
+      stroke-dasharray: 20 8 30 10 15 8;
+      animation: waveFlow 18s linear infinite;
+    }
+
+    .wave-line-subtle {
+      fill: none;
+      stroke: #30363d;
+      stroke-width: 1;
+      opacity: 0.4;
+    }
+
+    .live-indicator {
+      animation: softPulse 2.5s ease-in-out infinite;
+      transform-origin: center;
     }
   </style>
 
-  <!-- Fondo Minimalista Oscuro Tipo Studio -->
-  <rect x="1" y="1" width="848" height="158" rx="12" fill="#090D14" stroke="#1C2333" stroke-width="1" />
+  <!-- Tarjeta contenedora sobria estilo GitHub Dark -->
+  <rect x="1" y="1" width="878" height="178" rx="12" fill="url(#cardBg)" stroke="#30363d" stroke-width="1" />
 
-  <!-- Línea decorativa sutil interior -->
-  <line x1="40" y1="158" x2="810" y2="158" stroke="url(#lineFade)" stroke-width="1" />
+  <!-- Línea base sutil de osciloscopio -->
+  <line x1="40" y1="135" x2="840" y2="135" stroke="#21262d" stroke-width="1" stroke-dasharray="4 4" />
 
-  <!-- ==================== LADO IZQUIERDO ==================== -->
-  <g transform="translate(42, 34)">
-    
-    <!-- Tag superior sobrio -->
-    <text x="0" y="12" fill="#64748B" font-size="11" class="font-mono" letter-spacing="2" font-weight="600">
-      SOFTWARE &amp; CREATIVE DEVELOPMENT
+  <!-- Onda orgánica de audio / señal (Bézier suave) -->
+  <path class="wave-line-subtle" d="M 40 135 C 140 135, 170 100, 240 120 C 310 140, 350 90, 420 125 C 490 155, 540 105, 620 130 C 700 155, 750 115, 840 135" />
+  <path class="wave-line" d="M 40 135 C 140 135, 170 100, 240 120 C 310 140, 350 90, 420 125 C 490 155, 540 105, 620 130 C 700 155, 750 115, 840 135" />
+
+  <!-- Nombre y rol profesional -->
+  <g transform="translate(45, 48)">
+    <!-- Título sobrio -->
+    <text x="0" y="0" fill="#f0f6fc" font-size="28" font-weight="700" class="font-main" letter-spacing="-0.5">
+      Álvaro
+    </text>
+    <text x="96" y="-1" fill="#8b949e" font-size="19" font-weight="400" class="font-mono">
+      / Zak208
     </text>
 
-    <!-- Nombre Principal -->
-    <text x="0" y="52" fill="#F8FAFC" font-size="34" class="font-main" font-weight="700" letter-spacing="-0.5">
-      Álvaro <tspan fill="#64748B" font-weight="400">/ Zak208</tspan>
+    <!-- Subtítulo técnico claro y honesto -->
+    <text x="0" y="32" fill="#8b949e" font-size="14" font-weight="400" class="font-main">
+      Desarrollo Web &amp; Interfaces Animadas • Backend &amp; APIs • Software Nativo en Python
     </text>
-
-    <!-- Descripción técnica profesional -->
-    <text x="0" y="78" fill="#94A3B8" font-size="14" class="font-main" font-weight="400">
-      Web interfaces, APIs &amp; native desktop applications with hardware integration.
-    </text>
-
-    <!-- Pill de Estado Minimalista -->
-    <g transform="translate(0, 96)">
-      <rect x="0" y="0" width="180" height="22" rx="11" fill="#0B1524" stroke="#1E2D4A" stroke-width="1" />
-      <circle cx="12" cy="11" r="3.5" fill="#00FFE0" class="status-dot" />
-      <text x="24" y="15" fill="#00FFE0" font-size="11" class="font-mono" font-weight="500">
-        Available for projects
-      </text>
-    </g>
-
   </g>
 
-  <!-- ==================== LADO DERECHO: WAVEFORM DSP ==================== -->
-  <!-- Onda de audio suave y elegante (simboliza DSP, FFmpeg y hardware reactivo) -->
-  <g transform="translate(630, 0)">
-    
-    <!-- Marco sutil para la onda -->
-    <g opacity="0.95">
-      <rect x="0"   y="72" width="4" height="24" rx="2" fill="url(#waveGrad)" class="b1" />
-      <rect x="10"  y="66" width="4" height="34" rx="2" fill="url(#waveGrad)" class="b2" />
-      <rect x="20"  y="58" width="4" height="48" rx="2" fill="url(#waveGrad)" class="b3" />
-      <rect x="30"  y="70" width="4" height="28" rx="2" fill="url(#waveGrad)" class="b4" />
-      <rect x="40"  y="55" width="4" height="56" rx="2" fill="url(#waveGrad)" class="b5" />
-      <rect x="50"  y="64" width="4" height="40" rx="2" fill="url(#waveGrad)" class="b6" />
-      <rect x="60"  y="72" width="4" height="30" rx="2" fill="url(#waveGrad)" class="b1" />
-      <rect x="70"  y="58" width="4" height="52" rx="2" fill="url(#waveGrad)" class="b3" />
-      <rect x="80"  y="66" width="4" height="42" rx="2" fill="url(#waveGrad)" class="b2" />
-      <rect x="90"  y="55" width="4" height="60" rx="2" fill="url(#waveGrad)" class="b5" />
-      <rect x="100" y="64" width="4" height="38" rx="2" fill="url(#waveGrad)" class="b6" />
-      <rect x="110" y="70" width="4" height="26" rx="2" fill="url(#waveGrad)" class="b4" />
-      <rect x="120" y="58" width="4" height="50" rx="2" fill="url(#waveGrad)" class="b3" />
-      <rect x="130" y="66" width="4" height="36" rx="2" fill="url(#waveGrad)" class="b2" />
-      <rect x="140" y="72" width="4" height="22" rx="2" fill="url(#waveGrad)" class="b1" />
-    </g>
-
-    <!-- Indicador discreto -->
-    <text x="70" y="132" text-anchor="middle" fill="#475569" font-size="10" class="font-mono">
-      AUDIO DSP &amp; USB HID
-    </text>
-
+  <!-- Estado sutil a la derecha -->
+  <g transform="translate(730, 44)">
+    <circle cx="10" cy="5" r="4" fill="#3fb950" class="live-indicator" />
+    <text x="22" y="9" fill="#8b949e" font-size="12" class="font-mono">disponible</text>
   </g>
 </svg>
