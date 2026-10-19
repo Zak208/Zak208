@@ -27,7 +27,7 @@
     <img src="https://img.shields.io/badge/Contacto-Email-F72585?style=for-the-badge&logo=gmail&logoColor=white&labelColor=090D16" alt="Email" />
   </a>
   &nbsp;
-  <img src="https://komarev.com/ghpvc/?username=Zak208&label=Visitas&style=for-the-badge&color=00ffe0&labelColor=090D16" alt="Profile Views" />
+  <img src="https://komarev.com/ghpvc/?username=Zak208&label=Visitas&style=for-the-badge&color=00ffe0&labelColor=090D16" alt="Vistas del perfil" />
 
 </div>
 
@@ -86,7 +86,6 @@
       <td width="75"><img src="./logos/nodejs.svg" width="36" height="36" alt="Node.js" /><br/><sub><b>Node.js</b></sub></td>
       <td width="75"><img src="./logos/docker.svg" width="36" height="36" alt="Docker" /><br/><sub><b>Docker</b></sub></td>
       <td width="75"><img src="./logos/git.svg" width="36" height="36" alt="Git" /><br/><sub><b>Git</b></sub></td>
-      <td width="75"><img src="./logos/virtualbox.svg" width="36" height="36" alt="VirtualBox" /><br/><sub><b>VirtualBox</b></sub></td>
       <td width="75"><img src="./logos/mysql.svg" width="36" height="36" alt="MySQL" /><br/><sub><b>MySQL</b></sub></td>
       <td width="75"><img src="./logos/postgresql.svg" width="36" height="36" alt="PostgreSQL" /><br/><sub><b>PostgreSQL</b></sub></td>
       <td width="75"><img src="./logos/sqlite.svg" width="36" height="36" alt="SQLite" /><br/><sub><b>SQLite</b></sub></td>
@@ -102,11 +101,11 @@
 
 <div align="center">
   <a href="https://github.com/Zak208">
-    <img src="https://github-readme-stats.vercel.app/api?username=Zak208&show_icons=true&locale=es&bg_color=0D1117&title_color=00FFE0&text_color=C9D1D9&icon_color=00FFE0&border_color=00FFE0" alt="GitHub Stats" />
+    <img src="https://github-readme-stats.vercel.app/api?username=Zak208&show_icons=true&locale=es&custom_title=Estad%C3%ADsticas+de+GitHub&bg_color=0D1117&title_color=00FFE0&text_color=C9D1D9&icon_color=00FFE0&border_color=00FFE0" alt="Estadísticas de GitHub" />
   </a>
   &nbsp;
   <a href="https://github.com/Zak208">
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Zak208&layout=compact&bg_color=0D1117&title_color=00FFE0&text_color=C9D1D9&border_color=00FFE0&locale=es" alt="Top Languages" />
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Zak208&layout=compact&locale=es&custom_title=Lenguajes+M%C3%A1s+Usados&bg_color=0D1117&title_color=00FFE0&text_color=C9D1D9&border_color=00FFE0" alt="Lenguajes más usados" />
   </a>
 </div>
 
@@ -114,7 +113,7 @@
 
 <div align="center">
   <a href="https://github.com/Zak208">
-    <img src="https://github-readme-streak-stats.herokuapp.com/?user=Zak208&background=0D1117&border=00FFE0&stroke=00FFE0&ring=00FFE0&fire=00FFE0&currStreakNum=00FFE0&sideNums=00FFE0&currStreakLabel=00FFE0&sideLabels=00FFE0&dates=C9D1D9" alt="GitHub Streak" />
+    <img src="https://github-readme-streak-stats.herokuapp.com/?user=Zak208&locale=es&background=0D1117&border=00FFE0&stroke=00FFE0&ring=00FFE0&fire=00FFE0&currStreakNum=00FFE0&sideNums=00FFE0&currStreakLabel=00FFE0&sideLabels=00FFE0&dates=C9D1D9" alt="Racha de contribuciones" />
   </a>
 </div>
 
