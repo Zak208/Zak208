@@ -1,194 +1,148 @@
 <div align="center">
-
-  <!-- ==================== HEADER ANIMADO EXCLUSIVO (SVG NATIVO) ==================== -->
-  <img src="./header.svg" width="100%" alt="ZAK208 Custom Header Engine" />
-
-  <br/><br/>
-
-  <!-- Botones con Alto Contraste y Tipografía Nítida -->
-  <p align="center">
-    <a href="https://zak208.sytes.net" target="_blank">
-      <img src="https://img.shields.io/badge/Portafolio-zak208.sytes.net-161B22?style=for-the-badge&logo=googlechrome&logoColor=00FFE0&labelColor=0D1117" alt="Portafolio Web" />
-    </a>
-    &nbsp;
-    <a href="mailto:juegojuego103@gmail.com">
-      <img src="https://img.shields.io/badge/Contacto-Email-D14836?style=for-the-badge&logo=gmail&logoColor=white&labelColor=161B22" alt="Email" />
-    </a>
-    &nbsp;
-    <img src="https://img.shields.io/badge/Estado-Disponible_para_proyectos-1F6FEB?style=for-the-badge&logo=git&logoColor=white&labelColor=161B22" alt="Estado" />
-    &nbsp;
-    <img src="https://komarev.com/ghpvc/?username=Zak208&label=Visitas&style=for-the-badge&color=008080&labelColor=161B22" alt="Visitas" />
-  </p>
-
-  <!-- Presentación Profesional -->
-  <p align="center">
-    ¡Hola! Soy <b>Álvaro</b> 👋<br/>
-    <b>Desarrollador Full-Stack & Creador de Software.</b><br/>
-    Construyo aplicaciones y sistemas de extremo a extremo: desde <b>páginas web dinámicas con animaciones fluidas</b><br/>
-    y backends escalables con bases de datos, hasta <b>software nativo de alto rendimiento</b>,<br/>
-    procesamiento multimedia con IA y control de hardware a bajo nivel.
-  </p>
-
+  <img src="./header.svg" width="100%" alt="Álvaro / Zak208 - Software &amp; Creative Development" />
 </div>
 
 <br/>
 
----
-
-### 🌟 Pilares de Desarrollo & Capacidades
-
-<div align="center">
-  <table border="0" cellpadding="10" cellspacing="0" width="100%">
-    <tr>
-      <!-- PILAR 1 -->
-      <td width="33%" valign="top">
-        <h3 align="center">🌐 Frontend & Web Animada</h3>
-        <p align="center"><i>Diseño dinámico, interactividad y movimiento</i></p>
-        <ul>
-          <li><b>Micro-animaciones & CSS Moderno:</b> Transiciones suaves, keyframes, layouts responsivos y efectos visuales interactivos.</li>
-          <li><b>Lógica de Cliente Reactiva:</b> JavaScript moderno (ES6+) y componentes dinámicos orientados a la experiencia de usuario (UX).</li>
-          <li><b>Portafolio Web en Producción:</b> Desplegado en <a href="https://zak208.sytes.net">zak208.sytes.net</a> con modo oscuro y rendimiento optimizado.</li>
-        </ul>
-      </td>
-      <!-- PILAR 2 -->
-      <td width="33%" valign="top">
-        <h3 align="center">⚡ Backend & Arquitectura</h3>
-        <p align="center"><i>Servicios escalables, APIs y persistencia</i></p>
-        <ul>
-          <li><b>APIs REST & Microservicios:</b> Arquitecturas limpias y modulares con Node.js y Python para servicios seguros y veloces.</li>
-          <li><b>Bases de Datos Relacionales:</b> Modelado, consultas y optimización de datos en PostgreSQL, MySQL y SQLite.</li>
-          <li><b>Infraestructura & Automatización:</b> Entornos reproducibles con Docker y automatizaciones para comunidades y flujos de trabajo.</li>
-        </ul>
-      </td>
-      <!-- PILAR 3 -->
-      <td width="33%" valign="top">
-        <h3 align="center">⚙️ Sistemas & Hardware</h3>
-        <p align="center"><i>Baja latencia, audio DSP y control USB</i></p>
-        <ul>
-          <li><b>Control Directo de Hardware:</b> Comunicación nativa con periféricos USB HID y tiras LED a 60 FPS sin retraso.</li>
-          <li><b>Procesamiento Multimedia:</b> Motores DSP de audio con FFmpeg y transcripción fonética local mediante Whisper AI.</li>
-          <li><b>Ingeniería de Fiabilidad:</b> Multiprocesamiento paralelo a prueba de cuelgues y suites completas de pruebas unitarias.</li>
-        </ul>
-      </td>
-    </tr>
-  </table>
-</div>
-
-<br/>
+<p align="center">
+  <a href="https://zak208.sytes.net" target="_blank">
+    <img src="https://img.shields.io/badge/Portafolio-zak208.sytes.net-161B22?style=flat-square&logo=google-chrome&logoColor=00FFE0" alt="Portafolio" />
+  </a>
+  &nbsp;
+  <a href="mailto:juegojuego103@gmail.com">
+    <img src="https://img.shields.io/badge/Email-juegojuego103@gmail.com-161B22?style=flat-square&logo=gmail&logoColor=white" alt="Email" />
+  </a>
+  &nbsp;
+  <img src="https://img.shields.io/badge/Ubicación-Madrid,_España-161B22?style=flat-square&logo=pin&logoColor=white" alt="Ubicación" />
+  &nbsp;
+  <img src="https://komarev.com/ghpvc/?username=Zak208&label=Visitas&style=flat-square&color=161B22" alt="Visitas" />
+</p>
 
 ---
 
-### 🚀 Proyectos Destacados (Showcase)
+### Sobre mí
 
-<div align="center">
-  <table border="0" cellpadding="12" cellspacing="0" width="100%">
-    <tr>
-      <!-- PROYECTO 1 -->
-      <td width="50%" valign="top">
-        <h3 align="center">🎵 <a href="https://github.com/Zak208/Descargar_Musica">Descargador de Música</a></h3>
-        <p align="center"><i>Desktop Music Player & Streamlined Audio Engine</i></p>
-        <p align="center">
-          <img src="https://img.shields.io/badge/Versi%C3%B3n-v1.17.2-00FFE0?style=flat-square&logoColor=black" />
-          <img src="https://img.shields.io/badge/Python-3.12-3776AB?style=flat-square&logo=python&logoColor=white" />
-          <img src="https://img.shields.io/badge/FFmpeg-Audio_DSP-007808?style=flat-square&logo=ffmpeg&logoColor=white" />
-          <img src="https://img.shields.io/badge/Whisper-AI_Karaoke-8A2BE2?style=flat-square&logo=openai&logoColor=white" />
-          <img src="https://img.shields.io/badge/Windows-Native_EXE-0078D4?style=flat-square&logo=windows&logoColor=white" />
-        </p>
-        <ul>
-          <li><b>Arquitectura 100% Local:</b> Reproductor con interfaz tipo Spotify, gestión de biblioteca y carátulas sin telemetría ni cuentas externas.</li>
-          <li><b>Karaoke IA con Whisper:</b> Reconocimiento de voz local para sincronizar letras palabra por palabra con precisión milimétrica.</li>
-          <li><b>Distribución Continua:</b> Actualizaciones automáticas OTA integradas desde GitHub Releases e instalador empaquetado en un clic.</li>
-        </ul>
-        <p align="center">
-          <a href="https://github.com/Zak208/Descargar_Musica"><b>📦 Ver Código en GitHub</b></a> &nbsp;•&nbsp; 
-          <a href="https://github.com/Zak208/Descargar_Musica/releases"><b>📥 Descargar Instalador (.exe)</b></a>
-        </p>
-      </td>
-      <!-- PROYECTO 2 -->
-      <td width="50%" valign="top">
-        <h3 align="center">💡 <a href="https://github.com/Zak208/Zak_Light">Zak_Light</a></h3>
-        <p align="center"><i>Real-time Ambient Lighting & Audio Reactive Controller</i></p>
-        <p align="center">
-          <img src="https://img.shields.io/badge/Python-3.12-3776AB?style=flat-square&logo=python&logoColor=white" />
-          <img src="https://img.shields.io/badge/Hardware-USB_Direct-00FFE0?style=flat-square&logoColor=black" />
-          <img src="https://img.shields.io/badge/Ambilight-60_FPS-orange?style=flat-square" />
-          <img src="https://img.shields.io/badge/Tests-560%2B_Passing-brightgreen?style=flat-square" />
-          <img src="https://img.shields.io/badge/Windows-Native_EXE-0078D4?style=flat-square&logo=windows&logoColor=white" />
-        </p>
-        <ul>
-          <li><b>Sincronización de Pantalla (Ambilight):</b> Captura perimetral ultrarrápida a 60 FPS para tiras LED detrás del monitor sin latencia.</li>
-          <li><b>Visualizador Reactivo de Audio:</b> Separación espectral de frecuencias en vivo con 18 modos y efectos dinámicos.</li>
-          <li><b>Ingeniería de Fiabilidad:</b> Arquitectura multiproceso a prueba de cuelgues, control USB nativo y más de 560 pruebas unitarias.</li>
-        </ul>
-        <p align="center">
-          <a href="https://github.com/Zak208/Zak_Light"><b>📦 Ver Código en GitHub</b></a> &nbsp;•&nbsp; 
-          <a href="https://github.com/Zak208/Zak_Light/releases"><b>📥 Descargar Instalador (.exe)</b></a>
-        </p>
-      </td>
-    </tr>
-  </table>
-</div>
+Soy **Álvaro** ([@Zak208](https://github.com/Zak208)). Me dedico al desarrollo de software con foco en tres áreas complementarias:
 
-<br/>
+- **Web & Interfaces:** Diseño y desarrollo de aplicaciones web con maquetación moderna, animaciones CSS fluidas y componentes interactivos.
+- **Backend & APIs:** Servicios estructurados en Node.js y Python, con bases de datos relacionales (PostgreSQL, MySQL, SQLite) y automatizaciones modulares.
+- **Escritorio & Hardware:** Software nativo para Windows con procesamiento de audio (FFmpeg, Whisper AI) y control directo de periféricos por USB en tiempo real.
 
 ---
 
-### 🛠️ Tecnologías & Herramientas
+### Proyectos destacados
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h4>🎵 <a href="https://github.com/Zak208/Descargar_Musica">Descargador de Música</a></h4>
+      <p><i>Reproductor de escritorio y motor de audio para Windows</i></p>
+      <p>
+        <img src="https://img.shields.io/badge/v1.17.2-161B22?style=flat-square&logoColor=white" />
+        <img src="https://img.shields.io/badge/Python_3.12-3776AB?style=flat-square&logo=python&logoColor=white" />
+        <img src="https://img.shields.io/badge/FFmpeg-007808?style=flat-square&logo=ffmpeg&logoColor=white" />
+        <img src="https://img.shields.io/badge/Whisper_AI-8A2BE2?style=flat-square" />
+      </p>
+      <ul>
+        <li>Interfaz nativa tipo Spotify con gestión local de listas, portadas y metadatos sin telemetría.</li>
+        <li>Generación y sincronización de karaoke en tiempo real mediante Whisper AI local.</li>
+        <li>Distribución con actualizaciones automáticas OTA desde GitHub Releases e instalador empaquetado.</li>
+      </ul>
+      <p>
+        <a href="https://github.com/Zak208/Descargar_Musica"><b>Ver repositorio</b></a> &nbsp;•&nbsp; 
+        <a href="https://github.com/Zak208/Descargar_Musica/releases"><b>Descargar instalador (.exe)</b></a>
+      </p>
+    </td>
+    <td width="50%" valign="top">
+      <h4>💡 <a href="https://github.com/Zak208/Zak_Light">Zak_Light</a></h4>
+      <p><i>Controlador de iluminación ambiental USB a 60 FPS</i></p>
+      <p>
+        <img src="https://img.shields.io/badge/v1.8.1-161B22?style=flat-square&logoColor=white" />
+        <img src="https://img.shields.io/badge/Python_3.12-3776AB?style=flat-square&logo=python&logoColor=white" />
+        <img src="https://img.shields.io/badge/USB_HID-00FFE0?style=flat-square&logoColor=black" />
+        <img src="https://img.shields.io/badge/Tests-560%2B_passed-238636?style=flat-square" />
+      </p>
+      <ul>
+        <li>Captura de pantalla perimetral a 60 FPS (Ambilight) para tiras LED detrás del monitor.</li>
+        <li>Visualizador reactivo de audio por frecuencias en directo con 18 modos dinámicos.</li>
+        <li>Arquitectura multiproceso a bajo nivel y suite de más de 560 pruebas unitarias.</li>
+      </ul>
+      <p>
+        <a href="https://github.com/Zak208/Zak_Light"><b>Ver repositorio</b></a> &nbsp;•&nbsp; 
+        <a href="https://github.com/Zak208/Zak_Light/releases"><b>Descargar ejecutable</b></a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h4>🌐 <a href="https://zak208.sytes.net">Portafolio Web Animado</a></h4>
+      <p><i>Sitio web personal interactivo con diseño responsive</i></p>
+      <ul>
+        <li>Diseño moderno en modo oscuro con micro-interacciones y transiciones CSS suaves.</li>
+        <li>Desplegado en producción con servidor propio y certificado SSL seguro (HTTPS).</li>
+      </ul>
+      <p>
+        <a href="https://zak208.sytes.net" target="_blank"><b>Abrir sitio web</b></a>
+      </p>
+    </td>
+    <td width="50%" valign="top">
+      <h4>🤖 <a href="https://github.com/Zak208/Bot-Discord-Cogs">Bot-Discord-Cogs</a></h4>
+      <p><i>Arquitectura base modular para bots de Discord en Python</i></p>
+      <ul>
+        <li>Estructura desacoplada y escalable basada en el sistema de Cogs de discord.py.</li>
+        <li>Organización limpia de comandos, listeners de eventos y tareas en segundo plano.</li>
+      </ul>
+      <p>
+        <a href="https://github.com/Zak208/Bot-Discord-Cogs"><b>Ver repositorio</b></a>
+      </p>
+    </td>
+  </tr>
+</table>
+
+---
+
+### Tecnologías & herramientas
 
 <div align="center">
-  <table border="0" cellpadding="8" cellspacing="0">
+  <table border="0" cellpadding="6" cellspacing="0">
     <tr align="center">
-      <td width="72"><img src="./logos/html.svg" width="38" height="38" alt="HTML5"/><br/><sub><b>HTML5</b></sub></td>
-      <td width="72"><img src="./logos/css.svg" width="38" height="38" alt="CSS3"/><br/><sub><b>CSS3</b></sub></td>
-      <td width="72"><img src="./logos/javascript.svg" width="38" height="38" alt="JavaScript"/><br/><sub><b>JavaScript</b></sub></td>
-      <td width="72"><img src="./logos/react.svg" width="38" height="38" alt="React"/><br/><sub><b>React</b></sub></td>
-      <td width="72"><img src="./logos/nodejs.svg" width="38" height="38" alt="Node.js"/><br/><sub><b>Node.js</b></sub></td>
-      <td width="72"><img src="./logos/python.svg" width="38" height="38" alt="Python"/><br/><sub><b>Python</b></sub></td>
-      <td width="72"><img src="./logos/git.svg" width="38" height="38" alt="Git"/><br/><sub><b>Git</b></sub></td>
-      <td width="72"><img src="./logos/docker.svg" width="38" height="38" alt="Docker"/><br/><sub><b>Docker</b></sub></td>
+      <td width="65"><img src="./logos/html.svg" width="34" height="34" alt="HTML5"/><br/><sub>HTML5</sub></td>
+      <td width="65"><img src="./logos/css.svg" width="34" height="34" alt="CSS3"/><br/><sub>CSS3</sub></td>
+      <td width="65"><img src="./logos/javascript.svg" width="34" height="34" alt="JavaScript"/><br/><sub>JavaScript</sub></td>
+      <td width="65"><img src="./logos/react.svg" width="34" height="34" alt="React"/><br/><sub>React</sub></td>
+      <td width="65"><img src="./logos/nodejs.svg" width="34" height="34" alt="Node.js"/><br/><sub>Node.js</sub></td>
+      <td width="65"><img src="./logos/python.svg" width="34" height="34" alt="Python"/><br/><sub>Python</sub></td>
+      <td width="65"><img src="./logos/git.svg" width="34" height="34" alt="Git"/><br/><sub>Git</sub></td>
+      <td width="65"><img src="./logos/docker.svg" width="34" height="34" alt="Docker"/><br/><sub>Docker</sub></td>
     </tr>
     <tr align="center">
-      <td width="72"><img src="./logos/postgresql.svg" width="38" height="38" alt="PostgreSQL"/><br/><sub><b>PostgreSQL</b></sub></td>
-      <td width="72"><img src="./logos/mysql.svg" width="38" height="38" alt="MySQL"/><br/><sub><b>MySQL</b></sub></td>
-      <td width="72"><img src="./logos/sqlite.svg" width="38" height="38" alt="SQLite"/><br/><sub><b>SQLite</b></sub></td>
-      <td width="72"><img src="./logos/discordpy.svg" width="38" height="38" alt="Discord.py"/><br/><sub><b>Discord.py</b></sub></td>
-      <td width="72"><img src="./logos/linux.svg" width="38" height="38" alt="Linux"/><br/><sub><b>Linux</b></sub></td>
-      <td width="72"><img src="./logos/windows.svg" width="38" height="38" alt="Windows"/><br/><sub><b>Windows</b></sub></td>
-      <td width="72"><img src="./logos/vscode.svg" width="38" height="38" alt="VS Code"/><br/><sub><b>VS Code</b></sub></td>
-      <td width="72"><img src="./logos/pycharm.svg" width="38" height="38" alt="PyCharm"/><br/><sub><b>PyCharm</b></sub></td>
+      <td width="65"><img src="./logos/postgresql.svg" width="34" height="34" alt="PostgreSQL"/><br/><sub>PostgreSQL</sub></td>
+      <td width="65"><img src="./logos/mysql.svg" width="34" height="34" alt="MySQL"/><br/><sub>MySQL</sub></td>
+      <td width="65"><img src="./logos/sqlite.svg" width="34" height="34" alt="SQLite"/><br/><sub>SQLite</sub></td>
+      <td width="65"><img src="./logos/discordpy.svg" width="34" height="34" alt="Discord.py"/><br/><sub>Discord.py</sub></td>
+      <td width="65"><img src="./logos/linux.svg" width="34" height="34" alt="Linux"/><br/><sub>Linux</sub></td>
+      <td width="65"><img src="./logos/windows.svg" width="34" height="34" alt="Windows"/><br/><sub>Windows</sub></td>
+      <td width="65"><img src="./logos/vscode.svg" width="34" height="34" alt="VS Code"/><br/><sub>VS Code</sub></td>
+      <td width="65"><img src="./logos/pycharm.svg" width="34" height="34" alt="PyCharm"/><br/><sub>PyCharm</sub></td>
     </tr>
   </table>
 </div>
 
-<br/>
-
 ---
 
-### 📊 Métricas & Analíticas de GitHub
+### Actividad en GitHub
 
 <div align="center">
   <a href="https://github.com/Zak208">
-    <img src="https://github-readme-stats.vercel.app/api?username=Zak208&show_icons=true&locale=es&custom_title=Estad%C3%ADsticas+de+GitHub&bg_color=0D1117&title_color=00FFE0&text_color=FFFFFF&icon_color=00FFE0&border_color=00FFE0&hide_border=false" alt="Estadísticas de GitHub" />
+    <img src="https://github-readme-stats.vercel.app/api?username=Zak208&show_icons=true&locale=es&custom_title=Estad%C3%ADsticas&bg_color=0D1117&title_color=00FFE0&text_color=E6EDF3&icon_color=00FFE0&border_color=21262D&hide_border=false" alt="Estadísticas de GitHub" />
   </a>
   &nbsp;
   <a href="https://github.com/Zak208">
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Zak208&layout=compact&locale=es&custom_title=Lenguajes+M%C3%A1s+Usados&bg_color=0D1117&title_color=00FFE0&text_color=FFFFFF&border_color=00FFE0&hide_border=false" alt="Lenguajes más usados" />
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Zak208&layout=compact&locale=es&custom_title=Lenguajes&bg_color=0D1117&title_color=00FFE0&text_color=E6EDF3&border_color=21262D&hide_border=false" alt="Lenguajes más usados" />
   </a>
 </div>
 
 <br/>
-
-<div align="center">
-  <a href="https://github.com/Zak208">
-    <img src="https://github-readme-streak-stats.herokuapp.com/?user=Zak208&locale=es&background=0D1117&border=00FFE0&stroke=00FFE0&ring=00FFE0&fire=00FFE0&currStreakNum=00FFE0&sideNums=00FFE0&currStreakLabel=00FFE0&sideLabels=00FFE0&dates=FFFFFF" alt="Racha de contribuciones" />
-  </a>
-</div>
-
-<br/>
-
----
-
-### 🕹️ Historial de Contribuciones (Snake Grid)
 
 <div align="center">
   <picture>
@@ -196,20 +150,4 @@
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Zak208/Zak208/output/github-contribution-grid-snake.svg">
     <img alt="Snake Animation" src="https://raw.githubusercontent.com/Zak208/Zak208/output/github-contribution-grid-snake-dark.svg" width="100%">
   </picture>
-</div>
-
-<br/>
-
----
-
-<!-- ==================== FOOTER ANIMADO EXCLUSIVO (SVG NATIVO) ==================== -->
-<div align="center">
-  <p>
-    <b>¿Tienes una idea para una web animada, backend o aplicación de escritorio?</b><br/>
-    <a href="mailto:juegojuego103@gmail.com"><b>⚡ Hablemos y construyámosla juntos</b></a>
-  </p>
-  
-  <br/>
-  
-  <img src="./footer.svg" width="100%" alt="ZAK208 Custom Footer Engine" />
 </div>
