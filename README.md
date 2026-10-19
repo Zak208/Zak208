@@ -1,12 +1,7 @@
 <div align="center">
 
-  <!-- ==================== HEADER DINÁMICO & NEON ==================== -->
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,45:004D54,85:00FFE0,100:0D1117&height=220&section=header&text=ZAK208&fontSize=48&fontColor=00FFE0&animation=fadeIn&fontAlignY=36" width="100%" alt="Header ZAK208" />
-
-  <!-- Terminal Typing Interactivo (Calibrado a 850px sin recortes) -->
-  <a href="https://github.com/Zak208">
-    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=18&pause=1400&color=00FFE0&background=0D111700&center=true&vCenter=true&width=850&lines=Full-Stack+Developer+%E2%80%A2+Webs+Animadas+%E2%80%A2+Backend+%26+Sistemas;Desarrollo+Frontend+%E2%80%A2+Interfaces+Din%C3%A1micas+con+Animaciones;APIs+REST+%E2%80%A2+Node.js+%E2%80%A2+Python+%E2%80%A2+Bases+de+Datos+%E2%80%A2+Docker;Software+de+Escritorio+Nativo+%E2%80%A2+Audio+DSP+%E2%80%A2+Whisper+AI;Control+de+Hardware+USB+%E2%80%A2+Ambilight+60+FPS+%E2%80%A2+C%C3%B3digo+Limpio" alt="Typing SVG" />
-  </a>
+  <!-- ==================== HEADER ANIMADO EXCLUSIVO (SVG NATIVO) ==================== -->
+  <img src="./header.svg" width="100%" alt="ZAK208 Custom Header Engine" />
 
   <br/><br/>
 
@@ -207,7 +202,7 @@
 
 ---
 
-<!-- ==================== FOOTER ANIMADO ==================== -->
+<!-- ==================== FOOTER ANIMADO EXCLUSIVO (SVG NATIVO) ==================== -->
 <div align="center">
   <p>
     <b>¿Tienes una idea para una web animada, backend o aplicación de escritorio?</b><br/>
@@ -216,5 +211,5 @@
   
   <br/>
   
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,45:004D54,85:00FFE0,100:0D1117&height=120&section=footer" alt="Footer Wave" />
+  <img src="./footer.svg" width="100%" alt="ZAK208 Custom Footer Engine" />
 </div>
