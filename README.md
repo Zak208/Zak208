@@ -22,18 +22,29 @@
 
 <table>
   <tr>
-    <td valign="top" align="center" width="38%">
-      <img src="./avi-ascii.svg" width="340" alt="Álvaro ASCII" />
+    <td valign="top" align="center" width="44%">
+      <img src="./avi-ascii.svg" width="380" height="380" alt="Álvaro ASCII" />
     </td>
-    <td valign="top" align="left" width="62%">
-      <h3>$ whoami</h3>
-
-Soy **Álvaro** ([@Zak208](https://github.com/Zak208)), desarrollador de software con foco en construir herramientas que combinan rendimiento real con una experiencia de usuario cuidada. Me muevo entre frontend y backend: interfaces limpias con micro-animaciones fluidas, y servicios automatizados con Node.js y Python integrados a bases de datos relacionales.
-
-También trabajo en el lado más cercano al hardware: software nativo para Windows con procesamiento de audio en tiempo real (FFmpeg, Whisper AI) y comunicación directa con periféricos USB. Si hay un problema interesante entre la pantalla y el hardware, probablemente ya estoy trabajando en él.
-
-**Stack principal:** Python · Node.js · HTML / CSS / JS · PostgreSQL · FFmpeg
-
+    <td valign="top" align="left" width="56%">
+      <h3><code>$ whoami</code></h3>
+      <p>
+        Soy <b>Álvaro</b> (<a href="https://github.com/Zak208">@Zak208</a>), desarrollador de software enfocado en rendimiento, interfaces interactivas y arquitectura eficiente.
+      </p>
+      <p>
+        💻 <b>Fullstack &amp; UI:</b> Aplicaciones web interactivas con diseño moderno y micro-animaciones fluidas, respaldadas por backends asíncronos en Node.js y Python integrados a bases de datos relacionales (PostgreSQL).
+      </p>
+      <p>
+        ⚙️ <b>Sistemas &amp; Hardware:</b> Software nativo para Windows con procesamiento de audio y vídeo en tiempo real (FFmpeg, Whisper AI) y comunicación a bajo nivel con periféricos mediante USB HID.
+      </p>
+      <p>
+        <code>Python</code> <code>Node.js</code> <code>JavaScript</code> <code>HTML/CSS</code> <code>PostgreSQL</code> <code>FFmpeg</code> <code>USB HID</code>
+      </p>
+      <p>
+        📌 <b>Proyectos destacados:</b><br/>
+        🚀 <a href="https://github.com/Zak208/Descargar_Musica"><b>Descargador de Música</b></a> &nbsp;•&nbsp; 
+        💡 <a href="https://github.com/Zak208/Zak_Light"><b>Zak Light</b></a> &nbsp;•&nbsp; 
+        🌐 <a href="https://zak208.sytes.net"><b>Portafolio Web</b></a>
+      </p>
     </td>
   </tr>
 </table>
