@@ -1,4 +1,4 @@
-﻿import sys
+import sys
 import urllib.request
 import io
 import math
@@ -10,14 +10,17 @@ except ImportError:
 
 GITHUB_USER   = "Zak208"
 OUT_SVG       = "avi-ascii.svg"
-COLS          = 70
-CHAR_W        = 6.2
-CHAR_H        = 13.0
+COLS          = 80          # ancho en caracteres
+CHAR_W        = 6.2         # px por carácter (monospace)
+CHAR_H        = 13.0        # px por línea
+# Para que el SVG quede CUADRADO: filas = cols * CHAR_W / CHAR_H
+# (cada char es ~2x más alto que ancho, por eso se divide)
+ROWS          = int(COLS * CHAR_W / CHAR_H)   # ≈ 38 filas → aspecto cuadrado
 FONT_SIZE     = 11
 COLOR         = "#c9d1d9"
 BG            = "#0d1117"
-RAMP          = " .:-=+*#%@"
-ROW_DELAY_S   = 0.045
+RAMP          = " .`:-=+*#%@"
+ROW_DELAY_S   = 0.055
 WIPE_DURATION = 0.30
 
 def fetch_avatar(user):
@@ -33,12 +36,12 @@ def preprocess(img):
     side = min(w, h)
     left = (w - side) // 2
     top  = (h - side) // 2
-    img = img.crop((left, top, left + side, top + side))
-    rows = int(COLS * CHAR_H / CHAR_W * 0.52)
-    img = img.resize((COLS, rows), Image.LANCZOS)
+    img = img.crop((left, top, left + side, top + side))  # cuadrado
+    # Redimensionar a COLS × ROWS — ya corregido por aspect ratio de char
+    img = img.resize((COLS, ROWS), Image.LANCZOS)
     img = img.convert("L")
-    img = ImageEnhance.Contrast(img).enhance(2.2)
-    img = ImageEnhance.Sharpness(img).enhance(1.8)
+    img = ImageEnhance.Contrast(img).enhance(2.4)
+    img = ImageEnhance.Sharpness(img).enhance(2.0)
     return img
 
 def pixel_to_char(b):
@@ -50,13 +53,15 @@ def image_to_rows(img):
 def make_svg(rows):
     n_rows = len(rows)
     n_cols = max(len(r) for r in rows)
-    svg_w = math.ceil(n_cols * CHAR_W)
-    svg_h = math.ceil(n_rows * CHAR_H)
-    total = n_rows * ROW_DELAY_S + WIPE_DURATION
+    svg_w  = math.ceil(n_cols * CHAR_W)
+    svg_h  = math.ceil(n_rows * CHAR_H)
+    # El SVG es cuadrado: usamos el lado mayor para ambas dimensiones
+    side   = max(svg_w, svg_h)
+    total  = n_rows * ROW_DELAY_S + WIPE_DURATION
 
     parts = [
-        f'<svg xmlns="http://www.w3.org/2000/svg" width="{svg_w}" height="{svg_h}" viewBox="0 0 {svg_w} {svg_h}">',
-        f'  <rect width="{svg_w}" height="{svg_h}" fill="{BG}"/>',
+        f'<svg xmlns="http://www.w3.org/2000/svg" width="{side}" height="{side}" viewBox="0 0 {side} {side}">',
+        f'  <rect width="{side}" height="{side}" fill="{BG}"/>',
         '  <style>',
         f'    text {{ font-family: "Courier New",monospace; font-size: {FONT_SIZE}px; fill: {COLOR}; white-space: pre; }}',
     ]
