@@ -51,49 +51,116 @@
 
 ---
 
-## Proyectos destacados
+<h3 align="center">Proyectos destacados</h3>
 
-### 🎵 [Descargador de Música](https://github.com/Zak208/Descargar_Musica)
-Reproductor de escritorio local con sincronización de audio, interfaz tipo Spotify, gestión de listas, carátulas y metadatos sin telemetría. Usa **Python 3.12**, **FFmpeg**, **Whisper AI**. Instalador `.exe` con actualizaciones OTA.
-
-**Tecnologías:** Python, FFmpeg, Whisper AI
-
-### 💡 [Zak_Light](https://github.com/Zak208/Zak_Light)
-Controlador de iluminación ambiental USB a 60 FPS, visualizador reactivo de audio con 18 modos, captura de pantalla perimetral sin retardo. Arquitectura multiproceso, más de 560 pruebas unitarias.
-
-**Tecnologías:** Python, USB HID
-
-### 🌐 [Portafolio Web Animado](https://zak208.sytes.net)
-Sitio web personal responsive en modo oscuro, con micro‑interacciones, hover y transiciones fluidas. Deploy propio con certificado SSL.
-
-**Tecnologías:** HTML5, CSS3, JavaScript, HTTPS
-
-### 🤖 [Bot-Discord-Cogs](https://github.com/Zak208/Bot-Discord-Cogs)
-Arquitectura modular para bots de Discord en Python, organización limpia de comandos, listeners y tareas asíncronas.
-
-**Tecnologías:** Python, discord.py
-
+<div align="center">
+<table width="100%">
+  <tr>
+    <td width="50%" valign="top">
+      <h4 align="center">🎵 <a href="https://github.com/Zak208/Descargar_Musica">Descargador de Música</a></h4>
+      <p align="center"><i>Reproductor de escritorio local con sincronización y descarga de audio</i></p>
+      <p align="center">
+        <img src="https://img.shields.io/badge/v1.17.2-21262d?style=flat-square&logoColor=white" />
+        <img src="https://img.shields.io/badge/Python_3.12-3776AB?style=flat-square&logo=python&logoColor=white" />
+        <img src="https://img.shields.io/badge/FFmpeg-007808?style=flat-square&logo=ffmpeg&logoColor=white" />
+        <img src="https://img.shields.io/badge/Whisper_AI-161b22?style=flat-square&logo=openai&logoColor=white" />
+      </p>
+      <ul>
+        <li>Interfaz nativa tipo Spotify con gestión local de listas, carátulas y metadatos sin telemetría.</li>
+        <li>Generación y sincronización de karaoke mediante Whisper AI ejecutado en local.</li>
+        <li>Distribución con instalador (<code>.exe</code>) y actualizaciones automáticas OTA desde GitHub Releases.</li>
+      </ul>
+      <p align="center">
+        <a href="https://github.com/Zak208/Descargar_Musica"><b>Ver repositorio</b></a> &nbsp;•&nbsp; 
+        <a href="https://github.com/Zak208/Descargar_Musica/releases"><b>Descargar instalador (.exe)</b></a>
+      </p>
+    </td>
+    <td width="50%" valign="top">
+      <h4 align="center">💡 <a href="https://github.com/Zak208/Zak_Light">Zak_Light</a></h4>
+      <p align="center"><i>Controlador de iluminación ambiental USB a 60 FPS</i></p>
+      <p align="center">
+        <img src="https://img.shields.io/badge/v1.8.1-21262d?style=flat-square&logoColor=white" />
+        <img src="https://img.shields.io/badge/Python_3.12-3776AB?style=flat-square&logo=python&logoColor=white" />
+        <img src="https://img.shields.io/badge/USB_HID-21262d?style=flat-square" />
+        <img src="https://img.shields.io/badge/Tests-560%2B_passed-238636?style=flat-square" />
+      </p>
+      <ul>
+        <li>Captura de pantalla perimetral a 60 FPS para tiras LED ambientales sin retardo perceptible.</li>
+        <li>Visualizador reactivo de audio por separación de frecuencias con 18 modos dinámicos.</li>
+        <li>Arquitectura multiproceso a bajo nivel y suite completa de más de 560 pruebas unitarias.</li>
+      </ul>
+      <p align="center">
+        <a href="https://github.com/Zak208/Zak_Light"><b>Ver repositorio</b></a> &nbsp;•&nbsp; 
+        <a href="https://github.com/Zak208/Zak_Light/releases"><b>Descargar ejecutable</b></a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h4 align="center">🌐 <a href="https://zak208.sytes.net">Portafolio Web Animado</a></h4>
+      <p align="center"><i>Sitio web personal interactivo con diseño responsive</i></p>
+      <p align="center">
+        <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" />
+        <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white" />
+        <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" />
+        <img src="https://img.shields.io/badge/SSL-HTTPS-238636?style=flat-square" />
+      </p>
+      <ul>
+        <li>Diseño moderno en modo oscuro con micro-interacciones, efectos hover y transiciones fluidas.</li>
+        <li>Desplegado en producción con servidor propio y certificado SSL seguro (HTTPS).</li>
+      </ul>
+      <p align="center">
+        <a href="https://zak208.sytes.net" target="_blank"><b>Abrir sitio web</b></a>
+      </p>
+    </td>
+    <td width="50%" valign="top">
+      <h4 align="center">🤖 <a href="https://github.com/Zak208/Bot-Discord-Cogs">Bot-Discord-Cogs</a></h4>
+      <p align="center"><i>Arquitectura base modular para bots de Discord en Python</i></p>
+      <p align="center">
+        <img src="https://img.shields.io/badge/Python_3-3776AB?style=flat-square&logo=python&logoColor=white" />
+        <img src="https://img.shields.io/badge/discord.py-5865F2?style=flat-square&logo=discord&logoColor=white" />
+        <img src="https://img.shields.io/badge/Modular-Cogs-21262d?style=flat-square" />
+      </p>
+      <ul>
+        <li>Estructura desacoplada y escalable basada en el sistema de Cogs de discord.py.</li>
+        <li>Organización limpia de comandos, listeners de eventos y tareas asíncronas en segundo plano.</li>
+      </ul>
+      <p align="center">
+        <a href="https://github.com/Zak208/Bot-Discord-Cogs"><b>Ver repositorio</b></a>
+      </p>
+    </td>
+  </tr>
+</table>
+</div>
 
 ---
 
-## Tecnologías & herramientas
+<h3 align="center">Tecnologías & herramientas</h3>
 
-![HTML5](./logos/html.svg) **HTML5**
-![CSS3](./logos/css.svg) **CSS3**
-![JavaScript](./logos/javascript.svg) **JavaScript**
-![React](./logos/react.svg) **React**
-![Node.js](./logos/nodejs.svg) **Node.js**
-![Python](./logos/python.svg) **Python**
-![Git](./logos/git.svg) **Git**
-![Docker](./logos/docker.svg) **Docker**
-![PostgreSQL](./logos/postgresql.svg) **PostgreSQL**
-![MySQL](./logos/mysql.svg) **MySQL**
-![SQLite](./logos/sqlite.svg) **SQLite**
-![Discord.py](./logos/discordpy.svg) **Discord.py**
-![Linux](./logos/linux.svg) **Linux**
-![Windows](./logos/windows.svg) **Windows**
-![VS Code](./logos/vscode.svg) **VS Code**
-![PyCharm](./logos/pycharm.svg) **PyCharm**
+<div align="center">
+  <table border="0" cellpadding="6" cellspacing="0">
+    <tr align="center">
+      <td width="65"><img src="./logos/html.svg" width="34" height="34" alt="HTML5"/><br/><sub>HTML5</sub></td>
+      <td width="65"><img src="./logos/css.svg" width="34" height="34" alt="CSS3"/><br/><sub>CSS3</sub></td>
+      <td width="65"><img src="./logos/javascript.svg" width="34" height="34" alt="JavaScript"/><br/><sub>JavaScript</sub></td>
+      <td width="65"><img src="./logos/react.svg" width="34" height="34" alt="React"/><br/><sub>React</sub></td>
+      <td width="65"><img src="./logos/nodejs.svg" width="34" height="34" alt="Node.js"/><br/><sub>Node.js</sub></td>
+      <td width="65"><img src="./logos/python.svg" width="34" height="34" alt="Python"/><br/><sub>Python</sub></td>
+      <td width="65"><img src="./logos/git.svg" width="34" height="34" alt="Git"/><br/><sub>Git</sub></td>
+      <td width="65"><img src="./logos/docker.svg" width="34" height="34" alt="Docker"/><br/><sub>Docker</sub></td>
+    </tr>
+    <tr align="center">
+      <td width="65"><img src="./logos/postgresql.svg" width="34" height="34" alt="PostgreSQL"/><br/><sub>PostgreSQL</sub></td>
+      <td width="65"><img src="./logos/mysql.svg" width="34" height="34" alt="MySQL"/><br/><sub>MySQL</sub></td>
+      <td width="65"><img src="./logos/sqlite.svg" width="34" height="34" alt="SQLite"/><br/><sub>SQLite</sub></td>
+      <td width="65"><img src="./logos/discordpy.svg" width="34" height="34" alt="Discord.py"/><br/><sub>Discord.py</sub></td>
+      <td width="65"><img src="./logos/linux.svg" width="34" height="34" alt="Linux"/><br/><sub>Linux</sub></td>
+      <td width="65"><img src="./logos/windows.svg" width="34" height="34" alt="Windows"/><br/><sub>Windows</sub></td>
+      <td width="65"><img src="./logos/vscode.svg" width="34" height="34" alt="VS Code"/><br/><sub>VS Code</sub></td>
+      <td width="65"><img src="./logos/pycharm.svg" width="34" height="34" alt="PyCharm"/><br/><sub>PyCharm</sub></td>
+    </tr>
+  </table>
+</div>
 
 ---
 
