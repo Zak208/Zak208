@@ -38,7 +38,7 @@
       <p>
         🔭 <b>En desarrollo:</b> Actualizando el <a href="https://github.com/Zak208/Descargar_Musica"><b>Descargador de Música</b></a>.<br/>
         🧠 <b>Aprendiendo:</b> Redes neuronales e IA (pesos y modelos).<br/>
-        💬 <b>Pregúntame sobre:</b> IA (Claude, Antigravity) y software nativo.
+        💬 <b>Pregúntame sobre:</b> Inteligencia Artificial y LLMs (Claude, Antigravity).
       </p>
     </td>
   </tr>
