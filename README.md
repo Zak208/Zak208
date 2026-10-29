@@ -1,5 +1,9 @@
 <div align="center">
-  <img src="./header.svg" width="100%" alt="Álvaro / Zak208" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./header-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="./header.svg">
+    <img src="./header-dark.svg" width="100%" alt="Álvaro / Zak208" />
+  </picture>
 </div>
 
 <br/>
