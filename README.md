@@ -9,10 +9,6 @@
     <img src="https://img.shields.io/badge/Portafolio-zak208.sytes.net-161B22?style=flat-square&logo=google-chrome&logoColor=C8693F" alt="Portafolio" />
   </a>
   &nbsp;
-  <a href="mailto:juegojuego103@gmail.com">
-    <img src="https://img.shields.io/badge/Email-juegojuego103@gmail.com-161B22?style=flat-square&logo=gmail&logoColor=white" alt="Email" />
-  </a>
-  &nbsp;
   <img src="https://img.shields.io/badge/Ubicación-Madrid,_España-161B22?style=flat-square&logo=google-maps&logoColor=4F6B4A" alt="Ubicación" />
   &nbsp;
   <img src="https://komarev.com/ghpvc/?username=Zak208&label=Visitas&style=flat-square&color=21262d" alt="Visitas" />
@@ -40,10 +36,9 @@
         <code>Python</code> <code>Node.js</code> <code>JavaScript</code> <code>HTML/CSS</code> <code>PostgreSQL</code> <code>FFmpeg</code> <code>USB HID</code>
       </p>
       <p>
-        📌 <b>Proyectos destacados:</b><br/>
-        🚀 <a href="https://github.com/Zak208/Descargar_Musica"><b>Descargador de Música</b></a> &nbsp;•&nbsp; 
-        💡 <a href="https://github.com/Zak208/Zak_Light"><b>Zak Light</b></a> &nbsp;•&nbsp; 
-        🌐 <a href="https://zak208.sytes.net"><b>Portafolio Web</b></a>
+        🔭 <b>En desarrollo:</b> Actualizando y optimizando el <a href="https://github.com/Zak208/Descargar_Musica"><b>Descargador de Música</b></a>.<br/>
+        🧠 <b>Aprendiendo:</b> Redes neuronales e IA (arquitectura interna, matrices de pesos y entrenamiento).<br/>
+        💬 <b>Hablemos de:</b> Inteligencia Artificial, LLMs (Claude, Antigravity) y desarrollo de software nativo.
       </p>
     </td>
   </tr>
@@ -193,3 +188,23 @@
     <img alt="Snake Animation" src="https://raw.githubusercontent.com/Zak208/Zak208/output/github-contribution-grid-snake-dark.svg" width="100%">
   </picture>
 </div>
+
+<br/>
+
+---
+
+<div align="center">
+  <p>
+    ⚡ <i>"Construyendo software con foco en rendimiento, interactividad y arquitectura eficiente."</i>
+  </p>
+  <p>
+    ¿Tienes alguna propuesta, idea de proyecto o te interesa colaborar?<br/>
+    <b>¡Conéctate conmigo a través de mi portafolio web o explora mis repositorios!</b>
+  </p>
+  <p>
+    <a href="https://zak208.sytes.net" target="_blank">
+      <img src="https://img.shields.io/badge/Visitar_Portafolio-zak208.sytes.net-161B22?style=flat-square&logo=google-chrome&logoColor=C8693F" alt="Portafolio" />
+    </a>
+  </p>
+</div>
+

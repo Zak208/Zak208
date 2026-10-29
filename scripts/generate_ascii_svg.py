@@ -1,4 +1,6 @@
+import os
 import sys
+import ssl
 import urllib.request
 import io
 import math
@@ -8,31 +10,36 @@ try:
 except ImportError:
     sys.exit("Instala Pillow: pip install pillow")
 
+SCRIPT_DIR    = os.path.dirname(os.path.abspath(__file__))
+PROJECT_DIR   = os.path.dirname(SCRIPT_DIR)
 GITHUB_USER   = "Zak208"
-OUT_SVG       = "avi-ascii.svg"
+OUT_SVG       = os.path.join(PROJECT_DIR, "avi-ascii.svg")
 
 # ── CANVAS TARGET ──────────────────────────────────────────────────────────
-# Queremos que el SVG final sea visualmente cuadrado.
-# Courier New en SVG: cada char ~6.5px ancho, ~12px alto (line-height real ~1.2em).
-# Para cuadrado: ROWS/COLS = CHAR_W/CHAR_H
-COLS          = 60
-CHAR_W        = 6.5          # ancho real de un char monospace en px
-CHAR_H        = 12.0         # line-height real en SVG
-ROWS          = int(COLS * CHAR_W / CHAR_H)   # 60 * 6.5/12 = 32 filas
-FONT_SIZE     = 10.5
+# Queremos que el SVG final sea visualmente cuadrado y con caracteres más definidos.
+# Con COLS=84 y FONT_SIZE=7.5px conseguimos mayor resolución y nitidez en el avatar.
+COLS          = 84
+CHAR_W        = round(390.0 / COLS, 2)       # ~4.64px ancho por char
+CHAR_H        = round(CHAR_W * (12.0 / 6.5), 2)  # ~8.57px alto por línea
+ROWS          = int(COLS * CHAR_W / CHAR_H)  # 45 filas
+FONT_SIZE     = round(CHAR_W * (10.5 / 6.5), 1)  # 7.5px
 
 COLOR         = "#c9d1d9"
 BG            = "#0d1117"
 RAMP          = " .`:-=+*#%@"
-ROW_DELAY_S   = 0.06
-WIPE_DURATION = 0.30
+ROW_DELAY_S   = 0.045
+WIPE_DURATION = 0.28
 # ───────────────────────────────────────────────────────────────────────────
 
 def fetch_avatar(user):
+    local_temp = os.path.join(PROJECT_DIR, "temp_avatar.png")
+    if os.path.exists(local_temp):
+        return Image.open(local_temp).convert("RGB")
     url = f"https://github.com/{user}.png?size=400"
     print(f"Descargando {url}...")
+    ctx = ssl._create_unverified_context()
     req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
-    with urllib.request.urlopen(req) as r:
+    with urllib.request.urlopen(req, context=ctx) as r:
         data = r.read()
     return Image.open(io.BytesIO(data)).convert("RGB")
 
@@ -44,7 +51,7 @@ def preprocess(img):
     img = img.crop((left, top, left + side, top + side))
     img = img.resize((COLS, ROWS), Image.LANCZOS)
     img = img.convert("L")
-    img = ImageEnhance.Contrast(img).enhance(2.5)
+    img = ImageEnhance.Contrast(img).enhance(2.4)
     img = ImageEnhance.Sharpness(img).enhance(2.0)
     return img
 
