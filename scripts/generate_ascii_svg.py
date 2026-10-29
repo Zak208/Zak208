@@ -55,16 +55,16 @@ def preprocess(img):
     img = ImageEnhance.Sharpness(img).enhance(2.0)
     return img
 
-def pixel_to_char(b):
-    return RAMP[int(b / 255 * (len(RAMP) - 1))]
+def pixel_to_char(b, ramp):
+    return ramp[int(b / 255 * (len(ramp) - 1))]
 
-def image_to_rows(img):
+def image_to_rows(img, ramp):
     return [
-        "".join(pixel_to_char(img.getpixel((x, y))) for x in range(img.width))
+        "".join(pixel_to_char(img.getpixel((x, y)), ramp) for x in range(img.width))
         for y in range(img.height)
     ]
 
-def make_svg(rows):
+def make_svg(rows, bg, color):
     n_rows = len(rows)
     n_cols = max(len(r) for r in rows)
 
@@ -86,10 +86,10 @@ def make_svg(rows):
         f' width="{canvas}" height="{canvas}"'
         f' viewBox="0 0 {canvas} {canvas}"'
         f' preserveAspectRatio="xMidYMid meet">',
-        f'  <rect width="{canvas}" height="{canvas}" fill="{BG}"/>',
+        f'  <rect width="{canvas}" height="{canvas}" fill="{bg}"/>',
         '  <style>',
         f'    text {{ font-family: "Courier New",Courier,monospace;'
-        f' font-size: {FONT_SIZE}px; fill: {COLOR}; white-space: pre; }}',
+        f' font-size: {FONT_SIZE}px; fill: {color}; white-space: pre; }}',
     ]
 
     for i in range(n_rows):
@@ -116,19 +116,22 @@ def make_svg(rows):
     return "\n".join(parts)
 
 if __name__ == "__main__":
-    img  = fetch_avatar(GITHUB_USER)
-    img  = preprocess(img)
-    rows = image_to_rows(img)
-    svg  = make_svg(rows)
+    img = fetch_avatar(GITHUB_USER)
+    img = preprocess(img)
 
+    # 1. Versión Dark (avi-ascii.svg)
+    ramp_dark = " .`:-=+*#%@"
+    rows_dark = image_to_rows(img, ramp_dark)
+    svg_dark  = make_svg(rows_dark, bg="#0d1117", color="#c9d1d9")
     with open(OUT_SVG, "w", encoding="utf-8") as f:
-        f.write(svg)
+        f.write(svg_dark)
+    print(f"OK Dark  -> {OUT_SVG}")
 
-    n_rows = len(rows)
-    n_cols = len(rows[0])
-    content_w = math.ceil(n_cols * CHAR_W)
-    content_h = math.ceil(n_rows * CHAR_H)
-    canvas    = max(content_w, content_h)
-    print(f"OK -> {OUT_SVG}")
-    print(f"  Chars: {n_rows} filas x {n_cols} cols")
-    print(f"  Contenido: {content_w}x{content_h}px  |  Canvas: {canvas}x{canvas}px (cuadrado)")
+    # 2. Versión Light (avi-ascii-light.svg)
+    out_svg_light = os.path.join(PROJECT_DIR, "avi-ascii-light.svg")
+    ramp_light = "@%#*+=-:. "
+    rows_light = image_to_rows(img, ramp_light)
+    svg_light  = make_svg(rows_light, bg="#ffffff", color="#1f2328")
+    with open(out_svg_light, "w", encoding="utf-8") as f:
+        f.write(svg_light)
+    print(f"OK Light -> {out_svg_light}")

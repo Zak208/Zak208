@@ -23,7 +23,11 @@
 <table>
   <tr>
     <td valign="top" align="center" width="44%">
-      <img src="./avi-ascii.svg" width="380" height="380" alt="Álvaro ASCII" />
+      <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="./avi-ascii.svg">
+        <source media="(prefers-color-scheme: light)" srcset="./avi-ascii-light.svg">
+        <img src="./avi-ascii.svg" width="380" height="380" alt="Álvaro ASCII" />
+      </picture>
     </td>
     <td valign="top" align="left" width="56%">
       <h3><code>$ whoami</code></h3>
@@ -167,11 +171,19 @@
 
 <div align="center">
   <a href="https://github.com/Zak208">
-    <img src="https://github-readme-stats.vercel.app/api?username=Zak208&show_icons=true&locale=es&custom_title=Estad%C3%ADsticas&bg_color=0D1117&title_color=4F6B4A&text_color=C9D1D9&icon_color=C8693F&border_color=30363D&hide_border=false" alt="Estadísticas de GitHub" />
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=Zak208&show_icons=true&locale=es&custom_title=Estad%C3%ADsticas&bg_color=0D1117&title_color=4F6B4A&text_color=C9D1D9&icon_color=C8693F&border_color=30363D&hide_border=false">
+      <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=Zak208&show_icons=true&locale=es&custom_title=Estad%C3%ADsticas&bg_color=FFFFFF&title_color=4F6B4A&text_color=24292F&icon_color=C8693F&border_color=D0D7DE&hide_border=false">
+      <img src="https://github-readme-stats.vercel.app/api?username=Zak208&show_icons=true&locale=es&custom_title=Estad%C3%ADsticas&bg_color=0D1117&title_color=4F6B4A&text_color=C9D1D9&icon_color=C8693F&border_color=30363D&hide_border=false" alt="Estadísticas de GitHub" />
+    </picture>
   </a>
   &nbsp;
   <a href="https://github.com/Zak208">
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Zak208&layout=compact&locale=es&custom_title=Lenguajes&bg_color=0D1117&title_color=4F6B4A&text_color=C9D1D9&border_color=30363D&hide_border=false" alt="Lenguajes más usados" />
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=Zak208&layout=compact&locale=es&custom_title=Lenguajes&bg_color=0D1117&title_color=4F6B4A&text_color=C9D1D9&border_color=30363D&hide_border=false">
+      <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=Zak208&layout=compact&locale=es&custom_title=Lenguajes&bg_color=FFFFFF&title_color=4F6B4A&text_color=24292F&border_color=D0D7DE&hide_border=false">
+      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Zak208&layout=compact&locale=es&custom_title=Lenguajes&bg_color=0D1117&title_color=4F6B4A&text_color=C9D1D9&border_color=30363D&hide_border=false" alt="Lenguajes más usados" />
+    </picture>
   </a>
 </div>
 
@@ -179,7 +191,11 @@
 
 <div align="center">
   <a href="https://github.com/Zak208">
-    <img src="https://github-readme-streak-stats.herokuapp.com/?user=Zak208&locale=es&background=0D1117&border=30363D&stroke=C8693F&ring=4F6B4A&fire=C8693F&currStreakNum=C8693F&sideNums=C9D1D9&currStreakLabel=8b949e&sideLabels=8b949e&dates=C9D1D9" alt="Racha de contribuciones" />
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-streak-stats.herokuapp.com/?user=Zak208&locale=es&background=0D1117&border=30363D&stroke=C8693F&ring=4F6B4A&fire=C8693F&currStreakNum=C8693F&sideNums=C9D1D9&currStreakLabel=8b949e&sideLabels=8b949e&dates=C9D1D9">
+      <source media="(prefers-color-scheme: light)" srcset="https://github-readme-streak-stats.herokuapp.com/?user=Zak208&locale=es&background=FFFFFF&border=D0D7DE&stroke=C8693F&ring=4F6B4A&fire=C8693F&currStreakNum=C8693F&sideNums=24292F&currStreakLabel=57606a&sideLabels=57606a&dates=57606a">
+      <img src="https://github-readme-streak-stats.herokuapp.com/?user=Zak208&locale=es&background=0D1117&border=30363D&stroke=C8693F&ring=4F6B4A&fire=C8693F&currStreakNum=C8693F&sideNums=C9D1D9&currStreakLabel=8b949e&sideLabels=8b949e&dates=C9D1D9" alt="Racha de contribuciones" />
+    </picture>
   </a>
 </div>
 

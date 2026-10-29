@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="390" height="390" viewBox="0 0 390 390" preserveAspectRatio="xMidYMid meet">
+  <rect width="390" height="390" fill="#ffffff"/>
+  <style>
+    text { font-family: "Courier New",Courier,monospace; font-size: 7.5px; fill: #1f2328; white-space: pre; }
+    @keyframes r0{0%,0.0%{clip-path:inset(0 100% 0 0)}12.15%,100%{clip-path:inset(0 0 0 0)}}
+    @keyframes r1{0%,1.95%{clip-path:inset(0 100% 0 0)}14.1%,100%{clip-path:inset(0 0 0 0)}}
+    @keyframes r2{0%,3.9%{clip-path:inset(0 100% 0 0)}16.05%,100%{clip-path:inset(0 0 0 0)}}
+    @keyframes r3{0%,5.86%{clip-path:inset(0 100% 0 0)}18.0%,100%{clip-path:inset(0 0 0 0)}}
+    @keyframes r4{0%,7.81%{clip-path:inset(0 100% 0 0)}19.96%,100%{clip-path:inset(0 0 0 0)}}
+    @keyframes r5{0%,9.76%{clip-path:inset(0 100% 0 0)}21.91%,100%{clip-path:inset(0 0 0 0)}}
+    @keyframes r6{0%,11.71%{clip-path:inset(0 100% 0 0)}23.86%,100%{clip-path:inset(0 0 0 0)}}
+    @keyframes r7{0%,13.67%{clip-path:inset(0 100% 0 0)}25.81%,100%{clip-path:inset(0 0 0 0)}}
+    @keyframes r8{0%,15.62%{clip-path:inset(0 100% 0 0)}27.77%,100%{clip-path:inset(0 0 0 0)}}
+    @keyframes r9{0%,17.57%{clip-path:inset(0 100% 0 0)}29.72%,100%{clip-path:inset(0 0 0 0)}}
+    @keyframes r10{0%,19.52%{clip-path:inset(0 100% 0 0)}31.67%,100%{clip-path:inset(0 0 0 0)}}
+    @keyframes r11{0%,21.48%{clip-path:inset(0 100% 0 0)}33.62%,100%{clip-path:inset(0 0 0 0)}}
+    @keyframes r12{0%,23.43%{clip-path:inset(0 100% 0 0)}35.57%,100%{clip-path:inset(0 0 0 0)}}
+    @keyframes r13{0%,25.38%{clip-path:inset(0 100% 0 0)}37.53%,100%{clip-path:inset(0 0 0 0)}}
+    @keyframes r14{0%,27.33%{clip-path:inset(0 100% 0 0)}39.48%,100%{clip-path:inset(0 0 0 0)}}
+    @keyframes r15{0%,29.28%{clip-path:inset(0 100% 0 0)}41.43%,100%{clip-path:inset(0 0 0 0)}}
+    @keyframes r16{0%,31.24%{clip-path:inset(0 100% 0 0)}43.38%,100%{clip-path:inset(0 0 0 0)}}
+    @keyframes r17{0%,33.19%{clip-path:inset(0 100% 0 0)}45.34%,100%{clip-path:inset(0 0 0 0)}}
+    @keyframes r18{0%,35.14%{clip-path:inset(0 100% 0 0)}47.29%,100%{clip-path:inset(0 0 0 0)}}
+    @keyframes r19{0%,37.09%{clip-path:inset(0 100% 0 0)}49.24%,100%{clip-path:inset(0 0 0 0)}}
+    @keyframes r20{0%,39.05%{clip-path:inset(0 100% 0 0)}51.19%,100%{clip-path:inset(0 0 0 0)}}
+    @keyframes r21{0%,41.0%{clip-path:inset(0 100% 0 0)}53.15%,100%{clip-path:inset(0 0 0 0)}}
+    @keyframes r22{0%,42.95%{clip-path:inset(0 100% 0 0)}55.1%,100%{clip-path:inset(0 0 0 0)}}
+    @keyframes r23{0%,44.9%{clip-path:inset(0 100% 0 0)}57.05%,100%{clip-path:inset(0 0 0 0)}}
+    @keyframes r24{0%,46.85%{clip-path:inset(0 100% 0 0)}59.0%,100%{clip-path:inset(0 0 0 0)}}
+    @keyframes r25{0%,48.81%{clip-path:inset(0 100% 0 0)}60.95%,100%{clip-path:inset(0 0 0 0)}}
+    @keyframes r26{0%,50.76%{clip-path:inset(0 100% 0 0)}62.91%,100%{clip-path:inset(0 0 0 0)}}
+    @keyframes r27{0%,52.71%{clip-path:inset(0 100% 0 0)}64.86%,100%{clip-path:inset(0 0 0 0)}}
+    @keyframes r28{0%,54.66%{clip-path:inset(0 100% 0 0)}66.81%,100%{clip-path:inset(0 0 0 0)}}
+    @keyframes r29{0%,56.62%{clip-path:inset(0 100% 0 0)}68.76%,100%{clip-path:inset(0 0 0 0)}}
+    @keyframes r30{0%,58.57%{clip-path:inset(0 100% 0 0)}70.72%,100%{clip-path:inset(0 0 0 0)}}
+    @keyframes r31{0%,60.52%{clip-path:inset(0 100% 0 0)}72.67%,100%{clip-path:inset(0 0 0 0)}}
+    @keyframes r32{0%,62.47%{clip-path:inset(0 100% 0 0)}74.62%,100%{clip-path:inset(0 0 0 0)}}
+    @keyframes r33{0%,64.43%{clip-path:inset(0 100% 0 0)}76.57%,100%{clip-path:inset(0 0 0 0)}}
+    @keyframes r34{0%,66.38%{clip-path:inset(0 100% 0 0)}78.52%,100%{clip-path:inset(0 0 0 0)}}
+    @keyframes r35{0%,68.33%{clip-path:inset(0 100% 0 0)}80.48%,100%{clip-path:inset(0 0 0 0)}}
+    @keyframes r36{0%,70.28%{clip-path:inset(0 100% 0 0)}82.43%,100%{clip-path:inset(0 0 0 0)}}
+    @keyframes r37{0%,72.23%{clip-path:inset(0 100% 0 0)}84.38%,100%{clip-path:inset(0 0 0 0)}}
+    @keyframes r38{0%,74.19%{clip-path:inset(0 100% 0 0)}86.33%,100%{clip-path:inset(0 0 0 0)}}
+    @keyframes r39{0%,76.14%{clip-path:inset(0 100% 0 0)}88.29%,100%{clip-path:inset(0 0 0 0)}}
+    @keyframes r40{0%,78.09%{clip-path:inset(0 100% 0 0)}90.24%,100%{clip-path:inset(0 0 0 0)}}
+    @keyframes r41{0%,80.04%{clip-path:inset(0 100% 0 0)}92.19%,100%{clip-path:inset(0 0 0 0)}}
+    @keyframes r42{0%,82.0%{clip-path:inset(0 100% 0 0)}94.14%,100%{clip-path:inset(0 0 0 0)}}
+    @keyframes r43{0%,83.95%{clip-path:inset(0 100% 0 0)}96.1%,100%{clip-path:inset(0 0 0 0)}}
+    @keyframes r44{0%,85.9%{clip-path:inset(0 100% 0 0)}98.05%,100%{clip-path:inset(0 0 0 0)}}
+  </style>
+  <text x="0" y="10.6" style="animation:r0 2.3s linear 1 both">                ....                                                                </text>
+  <text x="0" y="19.1" style="animation:r1 2.3s linear 1 both">                    .... .. .:::.       .....                                       </text>
+  <text x="0" y="27.7" style="animation:r2 2.3s linear 1 both">                        .:*@@@@@@@@@@=       ....                                   </text>
+  <text x="0" y="36.3" style="animation:r3 2.3s linear 1 both">                       .#@@@@@@@@@@@@@@@                                            </text>
+  <text x="0" y="44.9" style="animation:r4 2.3s linear 1 both">                     :@@@@@@@@@@@@@@@@@@@@-                                         </text>
+  <text x="0" y="53.4" style="animation:r5 2.3s linear 1 both">.......     ..     :@@@@@@@@@@@@@@@@@@@@@@@@+                                       </text>
+  <text x="0" y="62.0" style="animation:r6 2.3s linear 1 both">::::::.......:... +@@@@@@@@@@@@@@@@@@@@@@@@@@:                                      </text>
+  <text x="0" y="70.6" style="animation:r7 2.3s linear 1 both">----------------:-%@@@@@@@@@@@@@@@@@@@@@@@@@@@.                                     </text>
+  <text x="0" y="79.1" style="animation:r8 2.3s linear 1 both">:........::::::---@@@@@@@@@@@@@@@@@@@@@@@@@@@@* ...                                 </text>
+  <text x="0" y="87.7" style="animation:r9 2.3s linear 1 both">..:               %@@@@@@@@@@@@@@@@@@@@@@@@@@@* ::::::...................           </text>
+  <text x="0" y="96.3" style="animation:r10 2.3s linear 1 both">..:                @@@@@@@@@@@@@@@@@@@@@@@@@@@=-=====-------------------:---:::::.:.</text>
+  <text x="0" y="104.8" style="animation:r11 2.3s linear 1 both">       ..          %@@@@@@@@@@@@@@@@@@@@@@@@@=:-=====+++++++++++===========--------:</text>
+  <text x="0" y="113.4" style="animation:r12 2.3s linear 1 both">:--::--::.::.... .  @@@@@@@@@@@@@@@@@@@@@@@@     .:. .:.... ......                  </text>
+  <text x="0" y="122.0" style="animation:r13 2.3s linear 1 both">     ....::-=====--.+@@@@@@@@@@@@@@@@@@@@@@@%                                       </text>
+  <text x="0" y="130.6" style="animation:r14 2.3s linear 1 both">.....              =.@@@@@@@@@@@@@@@@@@@@@@%@-.::::::::::..::..........             </text>
+  <text x="0" y="139.1" style="animation:r15 2.3s linear 1 both">....:--=--=--+@%      -*%@@@@@@@@@@@@@@@@@@@                  ..                    </text>
+  <text x="0" y="147.7" style="animation:r16 2.3s linear 1 both">      ...     -= ... ....  :+@@@@@@@@@@@@@@@@@@@@%*=-=:=*-.::   .....:. . .::  ...  </text>
+  <text x="0" y="156.3" style="animation:r17 2.3s linear 1 both">        .             .:=**=:.:=@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@+   .   .=++   +*    :</text>
+  <text x="0" y="164.8" style="animation:r18 2.3s linear 1 both">#@#*%@#. . .:--===+++++=:::::. --*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@. .=.=@@@+*+@@+.%%@</text>
+  <text x="0" y="173.4" style="animation:r19 2.3s linear 1 both">@@@@@@@= .-+*****##****+***++=:-+==@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
+  <text x="0" y="182.0" style="animation:r20 2.3s linear 1 both">@@@@@@@  :-===-:.       .:-=**##*++-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
+  <text x="0" y="190.5" style="animation:r21 2.3s linear 1 both">@@@@@@@% ..:.    .-=+++++++==+++*#*+-@@#*@=%@#%@@=@@*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
+  <text x="0" y="199.1" style="animation:r22 2.3s linear 1 both">#%#%#@%@%*:.:-=*+=-..    ....=*#+=*#+*@*%@*@#**#@=@@=@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
+  <text x="0" y="207.7" style="animation:r23 2.3s linear 1 both">=-:-%%#+%@@@@--        .....   -*%++#=*###**++*=###*#%@@@@@@@@@@%%*#@@@@%%@@@@@@@@@@</text>
+  <text x="0" y="216.2" style="animation:r24 2.3s linear 1 both">==--:::-=++#.               ..   :+*+#++*+++***+===----::--+--------:--=+*#++++=++*%</text>
+  <text x="0" y="224.8" style="animation:r25 2.3s linear 1 both">=========-+       ..      ....: :: -+*#+*+**+*****++****+====---:::--::::.  ..::+#*%</text>
+  <text x="0" y="233.4" style="animation:r26 2.3s linear 1 both">=========*+      .      .::...:::--:.==++*+++*+*++*+*##+*%******++=---=*=*@-@%===+++</text>
+  <text x="0" y="242.0" style="animation:r27 2.3s linear 1 both">========+#            .-:.::::-=--==-::-***###*#*****+#+=#*****+=-*@#%##:=**%@+.:=++</text>
+  <text x="0" y="250.5" style="animation:r28 2.3s linear 1 both">========+:    .      :=-..-:..-==---=-+*-+++========+++++==+==++++-@@@@@@@@@@%@@@+++</text>
+  <text x="0" y="259.1" style="animation:r29 2.3s linear 1 both">=+=====++    ....   :*+  :=. -+++==-==+@=+**++**+**++=++++==++==+==@@@@@@@@@@@@@@-==</text>
+  <text x="0" y="267.7" style="animation:r30 2.3s linear 1 both">====+==+*   .. .. .:+#- :+- .++++-==-==%+=#*+++==+++***++*++++===-*+====-=--++:.-===</text>
+  <text x="0" y="276.2" style="animation:r31 2.3s linear 1 both">=======++  ......-*-*#: ++  =+++=+==:-=%#-+*+++=++++======+=-=+=--=+===+=+++*=====-=</text>
+  <text x="0" y="284.8" style="animation:r32 2.3s linear 1 both">==+====+=  ....::.=-*#..#. -++===++=-=-*#=+*++*++*=+*+****++*+++==+====+=+=+===++===</text>
+  <text x="0" y="293.4" style="animation:r33 2.3s linear 1 both">++===+=*- ...:::-.=:+# == :++++=++%=:+=-%+=+++*+=+++++=++==++====----:==-----==-=---</text>
+  <text x="0" y="301.9" style="animation:r34 2.3s linear 1 both">++==+==*: .::--:-:===*.+  -=+******-:++-**=++==+====-------=+=--+-====+=-======--==+</text>
+  <text x="0" y="310.5" style="animation:r35 2.3s linear 1 both">+++==+=*: .=:------*=.-: :+#*+*****-:===-#=+*++**++***+++==+=-=+-=+=--=====-==---=--</text>
+  <text x="0" y="319.1" style="animation:r36 2.3s linear 1 both">+=++=++*:  +=:=----++ -  -+++****++=:==#==*====+===++++***++++===+====+=-===-====+=-</text>
+  <text x="0" y="327.7" style="animation:r37 2.3s linear 1 both">+=+++++*:  -#+:=---+*-  .=++****+++=.=-*#=*++=-+**+=-:-----:.=+==--:--:-===--==-=---</text>
+  <text x="0" y="336.2" style="animation:r38 2.3s linear 1 both">+++++++*.  .+#=:=--=+*  :=+********=.===#+++==++--+*=====----:::--=+==+=-=+--==-==-=</text>
+  <text x="0" y="344.8" style="animation:r39 2.3s linear 1 both">++*+=++#: ..-**+----=*  :=********++:-+:*#=+==-++=+=-=+=+++-=+**+++-:::---======-===</text>
+  <text x="0" y="353.4" style="animation:r40 2.3s linear 1 both">+++++++#. ..:++*+=-::*. -+***+**++++-:+=-#++=*+--==++=::---==+=--=++-====--=-=+===++</text>
+  <text x="0" y="361.9" style="animation:r41 2.3s linear 1 both">+++++++*  .:.-==+*+=:=  ++****+**+++=.=+:=**=+*++++**+==+=--==--==--=+====-==++==+++</text>
+  <text x="0" y="370.5" style="animation:r42 2.3s linear 1 both">+++***** ..:..-===+++- .=+****+**+++=:-*-:+#++*****+=-==-=**++=--=+++++-==++=+=++++=</text>
+  <text x="0" y="379.1" style="animation:r43 2.3s linear 1 both">++++++#= ...:.:=====++ :+******+++++=--*+:=%+-++*+--=+*+==+****+=++++++=--+==+++====</text>
+  <text x="0" y="387.7" style="animation:r44 2.3s linear 1 both">****++*- ....:.:-====-.-++*********++==+*+=#*+*++*++****+=--==++======++++++++++++++</text>
+</svg>
