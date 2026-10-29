@@ -172,17 +172,17 @@
 <div align="center">
   <a href="https://github.com/Zak208">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=Zak208&show_icons=true&locale=es&custom_title=Estad%C3%ADsticas&bg_color=0D1117&title_color=4F6B4A&text_color=C9D1D9&icon_color=C8693F&border_color=30363D&hide_border=false">
-      <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=Zak208&show_icons=true&locale=es&custom_title=Estad%C3%ADsticas&bg_color=FFFFFF&title_color=4F6B4A&text_color=24292F&icon_color=C8693F&border_color=D0D7DE&hide_border=false">
-      <img src="https://github-readme-stats.vercel.app/api?username=Zak208&show_icons=true&locale=es&custom_title=Estad%C3%ADsticas&bg_color=0D1117&title_color=4F6B4A&text_color=C9D1D9&icon_color=C8693F&border_color=30363D&hide_border=false" alt="Estadísticas de GitHub" />
+      <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-anuraghazra1.vercel.app/api?username=Zak208&show_icons=true&locale=es&custom_title=Estad%C3%ADsticas&bg_color=0D1117&title_color=4F6B4A&text_color=C9D1D9&icon_color=C8693F&border_color=30363D&hide_border=false">
+      <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats-anuraghazra1.vercel.app/api?username=Zak208&show_icons=true&locale=es&custom_title=Estad%C3%ADsticas&bg_color=FFFFFF&title_color=4F6B4A&text_color=24292F&icon_color=C8693F&border_color=D0D7DE&hide_border=false">
+      <img src="https://github-readme-stats-anuraghazra1.vercel.app/api?username=Zak208&show_icons=true&locale=es&custom_title=Estad%C3%ADsticas&bg_color=0D1117&title_color=4F6B4A&text_color=C9D1D9&icon_color=C8693F&border_color=30363D&hide_border=false" alt="Estadísticas de GitHub" />
     </picture>
   </a>
   &nbsp;
   <a href="https://github.com/Zak208">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=Zak208&layout=compact&locale=es&custom_title=Lenguajes&bg_color=0D1117&title_color=4F6B4A&text_color=C9D1D9&border_color=30363D&hide_border=false">
-      <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=Zak208&layout=compact&locale=es&custom_title=Lenguajes&bg_color=FFFFFF&title_color=4F6B4A&text_color=24292F&border_color=D0D7DE&hide_border=false">
-      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Zak208&layout=compact&locale=es&custom_title=Lenguajes&bg_color=0D1117&title_color=4F6B4A&text_color=C9D1D9&border_color=30363D&hide_border=false" alt="Lenguajes más usados" />
+      <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-anuraghazra1.vercel.app/api/top-langs/?username=Zak208&layout=compact&locale=es&custom_title=Lenguajes&bg_color=0D1117&title_color=4F6B4A&text_color=C9D1D9&border_color=30363D&hide_border=false">
+      <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats-anuraghazra1.vercel.app/api/top-langs/?username=Zak208&layout=compact&locale=es&custom_title=Lenguajes&bg_color=FFFFFF&title_color=4F6B4A&text_color=24292F&border_color=D0D7DE&hide_border=false">
+      <img src="https://github-readme-stats-anuraghazra1.vercel.app/api/top-langs/?username=Zak208&layout=compact&locale=es&custom_title=Lenguajes&bg_color=0D1117&title_color=4F6B4A&text_color=C9D1D9&border_color=30363D&hide_border=false" alt="Lenguajes más usados" />
     </picture>
   </a>
 </div>
