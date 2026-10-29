@@ -24,21 +24,21 @@
     <td valign="top" align="left" width="56%">
       <h3><code>$ whoami</code></h3>
       <p>
-        Soy <b>Álvaro</b> (<a href="https://github.com/Zak208">@Zak208</a>), desarrollador de software enfocado en rendimiento, interfaces interactivas y arquitectura eficiente.
+        Soy <b>Álvaro</b> (<a href="https://github.com/Zak208">@Zak208</a>), desarrollador enfocado en rendimiento, interfaces dinámicas y arquitectura eficiente.
       </p>
       <p>
-        💻 <b>Fullstack &amp; UI:</b> Aplicaciones web interactivas con diseño moderno y micro-animaciones fluidas, respaldadas por backends asíncronos en Node.js y Python integrados a bases de datos relacionales (PostgreSQL).
+        💻 <b>Fullstack &amp; UI:</b> Aplicaciones web con micro-animaciones fluidas y backends asíncronos en Node.js y Python (PostgreSQL).
       </p>
       <p>
-        ⚙️ <b>Sistemas &amp; Hardware:</b> Software nativo para Windows con procesamiento de audio y vídeo en tiempo real (FFmpeg, Whisper AI) y comunicación a bajo nivel con periféricos mediante USB HID.
+        ⚙️ <b>Sistemas &amp; Hardware:</b> Software nativo Windows con procesamiento de audio/vídeo (FFmpeg, Whisper AI) y periféricos USB HID.
       </p>
       <p>
         <code>Python</code> <code>Node.js</code> <code>JavaScript</code> <code>HTML/CSS</code> <code>PostgreSQL</code> <code>FFmpeg</code> <code>USB HID</code>
       </p>
       <p>
-        🔭 <b>En desarrollo:</b> Actualizando y optimizando el <a href="https://github.com/Zak208/Descargar_Musica"><b>Descargador de Música</b></a>.<br/>
-        🧠 <b>Aprendiendo:</b> Redes neuronales e IA (arquitectura interna, matrices de pesos y entrenamiento).<br/>
-        💬 <b>Hablemos de:</b> Inteligencia Artificial, LLMs (Claude, Antigravity) y desarrollo de software nativo.
+        🔭 <b>En desarrollo:</b> Actualizando el <a href="https://github.com/Zak208/Descargar_Musica"><b>Descargador de Música</b></a>.<br/>
+        🧠 <b>Aprendiendo:</b> Redes neuronales e IA (pesos y modelos).<br/>
+        💬 <b>Pregúntame sobre:</b> IA (Claude, Antigravity) y software nativo.
       </p>
     </td>
   </tr>
@@ -198,12 +198,12 @@
     ⚡ <i>"Construyendo software con foco en rendimiento, interactividad y arquitectura eficiente."</i>
   </p>
   <p>
-    ¿Tienes alguna propuesta, idea de proyecto o te interesa colaborar?<br/>
-    <b>¡Conéctate conmigo a través de mi portafolio web o explora mis repositorios!</b>
+    ¿Te interesa alguno de mis proyectos o quieres ver más código?<br/>
+    <b>¡Explora mis repositorios o echa un vistazo a mi portafolio web interactivo!</b>
   </p>
   <p>
     <a href="https://zak208.sytes.net" target="_blank">
-      <img src="https://img.shields.io/badge/Visitar_Portafolio-zak208.sytes.net-161B22?style=flat-square&logo=google-chrome&logoColor=C8693F" alt="Portafolio" />
+      <img src="https://img.shields.io/badge/Portafolio-zak208.sytes.net-161B22?style=flat-square&logo=google-chrome&logoColor=C8693F" alt="Portafolio" />
     </a>
   </p>
 </div>
